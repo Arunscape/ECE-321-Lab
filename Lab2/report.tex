@@ -31,49 +31,49 @@
 %actual document
 \begin{document}
 
-  %titlepage
-  \begin{titlepage}
-    \begin{center}
+%titlepage
+\begin{titlepage}
+ \begin{center}
 
-      \LARGE
-      ECE 321 Lab - Software Requirements Engineering
-
-      Department of Electrical and Computer Engineering
-
-      University of Alberta
-
-      \vspace{2cm}
-
-      Lab 2: Insert title
-
-      \vspace{5cm}
-      \Large
-
-      \begin{tabular}{ | m{5cm} | m{5cm} | }
-        \hline
-        Student Name & Student \\
-        \hline
-        Arun Woosaree & XXXXXX \\
-        \hline
-        Max & XXXXXX \\
-        \hline
-        Liyao & XXXXXX \\
-        \hline
-      \end{tabular}
-
-
-      % \begin{tabu} to 0.8\textwidth{  | X[c] | X[c] | }
-      %   \hline
-      %   Student Name & Student \\
-      %   \hline
-      %   Arun Woosaree & xxxxxxx \\
-      %   \hline
-      %   Navras Kamal & 1505463 \\
-      %   \hline
-      % \end{tabu}
-
-
-    \end{center}
+  \LARGE
+  ECE 321 Lab - Software Requirements Engineering
+  
+  Department of Electrical and Computer Engineering
+  
+  University of Alberta
+  
+  \vspace{2cm}
+  
+  Lab 2: Insert title
+  
+  \vspace{5cm}
+  \Large
+  
+  \begin{tabular}{ | m{5cm} | m{5cm} | }
+   \hline
+   Student Name  & Student \\
+   \hline
+   Arun Woosaree & XXXXXX  \\
+   \hline
+   Max           & XXXXXX  \\
+   \hline
+   Liyao         & XXXXXX  \\
+   \hline
+  \end{tabular}
+  
+  
+  % \begin{tabu} to 0.8\textwidth{  | X[c] | X[c] | }
+  %   \hline
+  %   Student Name & Student \\
+  %   \hline
+  %   Arun Woosaree & xxxxxxx \\
+  %   \hline
+  %   Navras Kamal & 1505463 \\
+  %   \hline
+  % \end{tabu}
+  
+  
+ \end{center}
 \end{titlepage}
 
 %table of tableofcontents
@@ -83,8 +83,104 @@
 % \vfill
 \newpage
 
-\section{Hello World}
-  \subsection{ok}
-    \subsubsection{yep}
-      this is some stuff
+\section{Stakeholders to consider}
+\label{stakeholders}
+\begin{enumerate}
+ \item Customers
+ \item End users
+ \item Requirement alalysts
+ \item Developers
+ \item Testers
+ \item Documentation writers
+ \item Project managers
+ \item Legal staff
+ \item Manufacturers
+\end{enumerate}
+
+\section{Things we need:}
+\begin{enumerate}
+ \item description of functionality
+ \item agreement on problem definition
+ \item root causes - why do we need the system?
+ \item who are the Stakeholders?  \ref{stakeholders}
+ \item system boundary
+ \item constraints
+ \item keep in mind: needs vs features
+\end{enumerate}
+
+\section{Types of questions to ask:}
+\begin{enumerate}
+ \item why is this
+ \item what else could
+ \item what happens when
+ \item why do you
+ \item why don't you
+ \item does anyone ever
+ \item context-free questions
+\end{enumerate}
+
+\section{structure of the interview:}
+\begin{enumerate}
+ \item Establish the customer or user profile
+ \item assess the problem
+ \item understand the user enviroment
+ \item recap at the end
+ \item assess your solution
+ \item assess the opportunity
+ \item assess the reliability, performance, and support needs
+ \item other Requirements
+ \item wrap-up
+ \item recap
+\end{enumerate}
+
+
+
+\section{List of questions to ask:}
+\begin{enumerate}
+ \item establishing the user profile:\\
+       what are your key responsibilities\\
+       what outputs do you produce or whom?\\
+       when is the solution successful for you?\\
+       what problems interfere with your success?\\
+       what makes your job easier or more difficult?\\
+       who are the users and what are their backgrounds?\\
+       what platforms are in use now, and in the future?\\
+       are there additional relevant applications?\\
+       what are your expectations for training time?\\
+       what kind of user help do you need? (manual, user support)
+       
+       
+ \item Here's what we think the problem definition is:
+       -------------------------------------------------------
+       it will affect: ---------------------------------------
+       which will result in ----------------------------------
+       so the solution should have these features:------------
+       which has these benefits: -----------------------------
+       Do you have anything to add?
+ \item What's the highest priority issue/root cause? \\
+       for each problem: \\
+       why does this problem exist?\\
+       how do you solve it now?\\
+       how would you rather solve it in the future?\\
+       --- rank the other root causes ---
+ \item -- stakeholders --
+ \item Who are the users?\\
+       Who is the customer/buyer of the system?\\
+       Who will evaluate and who will maintain the system\\
+       Anyone else?
+ \item --system boundary --\\
+       Who will operate it?\\
+       who will supply, use, or remove information from the system\\
+       where will the system be used?\\
+       what other external systems will interact with this one?\\
+ \item -- constraints --
+       technical constrains\\
+       economical\\
+       political - any laws we should be aware of?\\
+       system-imposed constraints -- compatible with existing systems? operating systems\\
+       enviromental constraints\\
+       security\\
+ \item what resources are available?
+\end{enumerate}
+
 \end{document}
