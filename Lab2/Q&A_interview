@@ -1,0 +1,80 @@
+Q: What environment system running? (environment changing)
+A:  small imbedded system 550KB hard drive, 50KB RAM
+language NCC standard
+
+Q: Laws , bylaw?
+A: Canadian Transportation, regulations on traffic lights
+
+Q: Data to be logged while running for optimizing?
+A: nice to have, limited space, hard to fit in the hardware
+
+Q: Someone who will be maintaining the software?
+A: implication of what is wrong (nice to have, not essential)
+
+No new hardware added to system
+No bike lanes
+S2 is response to cars and motor cycles
+
+Q: Top 3 must have?
+A: Safety, reliability, correctness, up as much as possible
+
+Q: Testing on the system?
+A: Provide some hardware if you want.
+
+System emergency mode when something go wrong.
+
+Q: Configurable timing?
+A: nice to have, not necessary
+
+Q: Night mode ?
+A: runs the same as emergency.
+
+Q: reset?
+A: start as default state, road 1 highest priority
+
+Different timers, timer 1 for road 1 only, timer 2 for the rest
+
+Sequence:
+Traffic on road 1, then road 3, then road 2
+
+Q: cycle through the state, turn on the pedestrian passing
+light when make sense (when safe). 
+
+Q: now using electronic switch system
+A: hard to maintain and use
+
+assume there is a simple way of notifying them
+
+Q: Yellow light not really a state
+A: So we don't model it as a state, just in between state
+
+We can press a button to start the emergency mode
+Not worried about the emergency vehicle
+After the night mode, go through the sequence and go to normal mode
+As for emergency, go back to default mode.
+Emergency mode is instant
+When starting system, it starts at emergency mode.
+Press a physical button to go to normal mode.
+
+Q: S2 what happens when there is vehicle
+A: 2 will be green when got signal, when 3 is already green, 2 will be green in
+the next cycle, otherwise 2 will be red.
+
+Q: Go to details on the timers
+A: T1 and T2, use any specific time
+
+move from default state
+
+Q: Performance, how to demonstrate to the client?
+
+imbedded system, don’t want anyone to modify the system
+
+Q: Reliabity (how much up time?)
+A:
+
+Q: Protecting of the sensor
+A: other things will be nice to have( we can suggest)
+
+timers are not for G turn lights, they should be green when if it safe to go.
+
+reset button, after go to emergency, and then go to default mode.
