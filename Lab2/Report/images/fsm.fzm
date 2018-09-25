@@ -1,4 +1,4 @@
-## File last modified by Fizzim: 12:45:27 PM on 25/09/18
+## File last modified by Fizzim: 1:12:59 PM on 25/09/18
 <version>
    14.02.26
 </version>
@@ -581,7 +581,7 @@ fzm_globalTable
             ABS
             </status>
          <value>
-         C=N
+         Clock=N
             <status>
             LOCAL
             </status>
@@ -623,10 +623,10 @@ fzm_globalTable
             </status>
          </resetval>
          <x2Obj>
-         -36
+         -47
          </x2Obj>
          <y2Obj>
-         3
+         5
          </y2Obj>
          <page>
          1
@@ -768,7 +768,7 @@ fzm_globalTable
             ABS
             </status>
          <value>
-         C=D
+         Clock=D
             <status>
             LOCAL
             </status>
@@ -810,10 +810,10 @@ fzm_globalTable
             </status>
          </resetval>
          <x2Obj>
-         32
+         37
          </x2Obj>
          <y2Obj>
-         -16
+         -24
          </y2Obj>
          <page>
          1
