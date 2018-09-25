@@ -38,18 +38,18 @@
 
   \LARGE
   ECE 321 Lab\\ Software Requirements Engineering
-  
+
   Department of Electrical and Computer Engineering\\
-  
+
   University of Alberta
-  
+
   \vspace{2cm}
-  
+
   404 Team Name Not Found
-  
+
   \vspace{5cm}
   \Large
-  
+
   \begin{tabular}{ | m{5cm} | m{5cm} | }
    \hline
    Student Name  & Student \\
@@ -61,8 +61,8 @@
    Liyao         & XXXXXX  \\
    \hline
   \end{tabular}
-  
-  
+
+
   % \begin{tabu} to 0.8\textwidth{  | X[c] | X[c] | }
   %   \hline
   %   Student Name & Student \\
@@ -72,8 +72,8 @@
   %   Navras Kamal & 1505463 \\
   %   \hline
   % \end{tabu}
-  
-  
+
+
  \end{center}
 \end{titlepage}
 
@@ -108,7 +108,7 @@ Western Canada largest traffic sign manufacture and traffic control company\\
        \textbf{L}ight
        \textbf{M}onitoring
        \textbf{S}ystem
-       
+
  \item \textbf{RB} -
        \textbf{R}eset
        \textbf{Button}
@@ -137,8 +137,8 @@ Western Canada largest traffic sign manufacture and traffic control company\\
  \item \textbf{Clock} - Can have value \textbf{D} or \textbf{N}
  \item \textbf{}
  \item \textbf{}
-       
-       
+
+
 \end{enumerate}
 
 
@@ -155,12 +155,22 @@ road \textbf{2} is secondary
 
 \section{Requirements}
 \begin{enumerate}
- \item yooo
+ \item The software will be running on imbedded system with 550KB hard drive, 50KB RAM.
+ \item The software desgin should obey regulations on traffic lights posted by Canadian Transportation Agency.
+ \item The software desgin should focus on safety, reliability and correctness. The system should be up as much as possible.
+ \item The software should use different timers. Timer 1 is used for road 1 only, and timer 2 is used for the rest.
+ \item Road 1 and 3 are main roads, and road 2 is secondary. Priority should be given in the sequence of road 1, road 3, road 2.
+ \item Pedestrian lights should turn green when it is safe to cross.
+ \item System should go to emergency state when there is a hardware malfunction, and go back to default mode when exiting emergency state.
+ \item The system should have a physical button for reset. During a reset, the system should go to emergency mode first, and then the default mode.
 \end{enumerate}
 
 \section{Nice-to-haves}
 \begin{enumerate}
- \item yooo
+ \item Data logging system, but design should account for the limited storage.
+ \item Indication of which part of the system is malfunctioning.
+ \item Configurable timing for traffic flow optimization purpose.
+ \item Protection of the sensor S2.
 \end{enumerate}
 
 
@@ -190,8 +200,8 @@ road \textbf{2} is secondary
        \begin{enumerate}
         \item \textbf{Green 3 S2} \textit{is this state, but when} \textbf{S2}=1
        \end{enumerate}
-       
-       
+
+
  \item \textbf{Green 3}
        \begin{itemize}
         \item {\color{green}\textbf{3,G3}}
