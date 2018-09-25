@@ -132,8 +132,8 @@ Western Canada largest traffic sign manufacture and traffic control company\\
  \item \textbf{BR}
        \textbf{B}linking
        \textbf{R}ed
- \item \textbf{D} - \textbf{D}ay
- \item \textbf{N} - \textbf{N}ight
+ \item \textbf{D} - \textbf{D}ay (6:00-20:00)
+ \item \textbf{N} - \textbf{N}ight (20:00-6:00)
  \item \textbf{Clock} - Can have value \textbf{D} or \textbf{N}
  \item \textbf{}
  \item \textbf{}
@@ -166,9 +166,14 @@ road \textbf{2} is secondary
 
 
 \section{State description}
-\textit{Labels}
-\textbf{1,2,3,P1,P2,P3,B3,S2,G1,G3}
-\textit{are defined on page \pageref{Definitions} and in Figure \ref{intersection} on page \ref{intersection}.}
+\textbf{Note: }
+\begin{itemize}
+ \item \textit{Labels}
+       \textbf{1,2,3,P1,P2,P3,B3,S2,G1,G3}
+       \textit{are defined on page \pageref{Definitions} and in Figure \ref{intersection} on page \ref{intersection}.}
+ \item {\color{green}Green} and {\color{red}Red} text indicate what colour the light should be in the respective state
+\end{itemize}
+
 \begin{enumerate}
  \item \textbf{Default}
        \begin{itemize}
@@ -186,9 +191,9 @@ road \textbf{2} is secondary
         \item \textbf{M}: 0
         \item \textbf{Clock}: \textbf{D}
        \end{itemize}
-       Notes:
+       Note:
        \begin{enumerate}
-        \item \textbf{Green 3 S2} \textit{is this state, but when} \textbf{S2}=1
+        \item \textbf{Green G1 S2} \textit{is this state, but when} \textbf{S2}=1
        \end{enumerate}
        
        
@@ -200,7 +205,7 @@ road \textbf{2} is secondary
         \item \textbf{M}: 0
         \item \textbf{Clock}: \textbf{D}
        \end{itemize}
-       Notes:
+       Note:
        \begin{enumerate}
         \item \textbf{Green 3 S2} \textit{is this state, but when} \textbf{S2}=1
        \end{enumerate}
@@ -212,9 +217,9 @@ road \textbf{2} is secondary
         \item \textbf{M}: 0
         \item \textbf{Clock}: \textbf{D}
        \end{itemize}
-       Notes:
+       Note:
        \begin{enumerate}
-        \item \textbf{Green 3 S2} \textit{is this state, but when} \textbf{S2}=1
+        \item \textbf{Green P3 S2} \textit{is this state, but when} \textbf{S2}=1
        \end{enumerate}
  \item \textbf{Green 2\&3}
        \begin{itemize}
@@ -240,11 +245,17 @@ road \textbf{2} is secondary
         \item \textbf{M}: 1
         \item \textbf{Clock}: \textbf{D} or \textbf{N}
        \end{itemize}
+       Note:
+       \begin{enumerate}
+        \item When the system first starts up, it should briefly go into emergency mode
+              with \textbf{M}=0 then immediately switch to default mode.
+              (Because hardware malfunctions should be fixed before the system starts.)
+       \end{enumerate}
 \end{enumerate}
 
 \begin{figure}[H]
  \centering
- \includegraphics[width=\textwidth]{fsm.png}
+ \includegraphics[width=\textwidth]{fsm.jpg}
  \caption{INSERT CAPTION HERE}
  \label{fsm}
 \end{figure}
