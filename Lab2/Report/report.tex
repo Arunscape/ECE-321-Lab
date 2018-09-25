@@ -155,12 +155,22 @@ road \textbf{2} is secondary
 
 \section{Requirements}
 \begin{enumerate}
- \item yooo
+ \item The software will be running on imbedded system with 550KB hard drive, 50KB RAM.
+ \item The software desgin should obey regulations on traffic lights posted by Canadian Transportation Agency.
+ \item The software desgin should focus on safety, reliability and correctness. The system should be up as much as possible.
+ \item The software should use different timers. Timer 1 is used for road 1 only, and timer 2 is used for the rest.
+ \item Road 1 and 3 are main roads, and road 2 is secondary. Priority should be given in the sequence of road 1, road 3, road 2.
+ \item Pedestrian lights should turn green when it is safe to cross.
+ \item System should go to emergency state when there is a hardware malfunction, and go back to default mode when exiting emergency state.
+ \item The system should have a physical button for reset. During a reset, the system should go to emergency mode first, and then the default mode.
 \end{enumerate}
 
 \section{Nice-to-haves}
 \begin{enumerate}
- \item yooo
+ \item Data logging system, but design should account for the limited storage.
+ \item Indication of which part of the system is malfunctioning.
+ \item Configurable timing for traffic flow optimization purpose.
+ \item Protection of the sensor S2.
 \end{enumerate}
 
 
