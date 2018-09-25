@@ -135,29 +135,14 @@ Western Canada largest traffic sign manufacture and traffic control company\\
  \item \textbf{D} - \textbf{D}ay (6:00-20:00)
  \item \textbf{N} - \textbf{N}ight (20:00-6:00)
  \item \textbf{Clock} - Can have value \textbf{D} or \textbf{N}
- \item \textbf{}
- \item \textbf{}
-       
-       
 \end{enumerate}
-
-
-\section{Description}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-culpa qui officia deserunt mollit anim id est laborum.
-road \textbf{1} is main, \textbf{3} is also main but \textbf{1} is the most important, and
-road \textbf{2} is secondary
 
 
 \section{Requirements}
 \begin{enumerate}
- \item The software will be running on imbedded system with 550KB hard drive, 50KB RAM.
- \item The software desgin should obey regulations on traffic lights posted by Canadian Transportation Agency.
- \item The software desgin should focus on safety, reliability and correctness. The system should be up as much as possible.
+ \item The software will be running on embedded system with a 550KB hard drive and 50KB RAM.
+ \item The software design should obey regulations on traffic lights posted by the Canadian Transportation Agency (CTA).
+ \item The software design should focus on safety, reliability and correctness. The system should be operating with minimal downtime.
  \item The software should use different timers. Timer 1 is used for road 1 only, and timer 2 is used for the rest.
  \item Road 1 and 3 are main roads, and road 2 is secondary. Priority should be given in the sequence of road 1, road 3, road 2.
  \item Pedestrian lights should turn green when it is safe to cross.
@@ -171,8 +156,8 @@ road \textbf{2} is secondary
  \item Indication of which part of the system is malfunctioning.
  \item Configurable timing for traffic flow optimization purpose.
  \item Protection of the sensor S2.
+ \item Ability to change \textbf{t1} and \textbf{t2} in the future
 \end{enumerate}
-
 
 
 \section{State description}
@@ -274,14 +259,20 @@ road \textbf{2} is secondary
 
 \begin{enumerate}
  \item Security\\
-       Here's how we make the system more secure:
        \begin{enumerate}
-        \item step 1
-        \item step 2
-        \item step 3
+        \item The embedded traffic system and reset buttons should be locked, and inaccessible by the public.
+        \item Control mechanisms should be secure so that someone cannot hack into the system to control the lights.
+        \item Software best practices should be used to keep the system secure.
        \end{enumerate}
  \item Reliability
+       \begin{enumerate}
+        \item The system should be tested in a virtual environment and tested thoroughly before being deployed.
+       \end{enumerate}
  \item Synced timings
+       \begin{enumerate}
+        \item The timing of the traffic lights changing states should be in sync with nearby intersections
+              to relieve congestion.
+       \end{enumerate}
 \end{enumerate}
 
 
