@@ -1,0 +1,126 @@
+%preamble
+\documentclass[letterpaper]{article}
+\synctex=1
+
+\usepackage{geometry}
+\usepackage{array}
+\usepackage{lipsum}
+
+\usepackage{graphicx}
+\usepackage{float}
+\graphicspath{ {images/} }
+
+\usepackage{float}
+
+\usepackage[hidelinks]{hyperref}
+
+% \usepackage[section]{placeins}
+%
+% \newenvironment{changemargin}[2]{%
+% \begin{list}{}{%
+% \setlength{\topsep}{0pt}%
+% \setlength{\leftmargin}{#1}%
+% \setlength{\rightmargin}{#2}%
+% \setlength{\listparindent}{\parindent}%
+% \setlength{\itemindent}{\parindent}%
+% \setlength{\parsep}{\parskip}%
+% }%
+% \item[]}{\end{list}}
+
+% \usepackage{tabu}
+%actual document
+\begin{document}
+
+%titlepage
+\begin{titlepage}
+ \begin{center}
+
+  \LARGE
+  ECE 321 Lab\\ Software Requirements Engineering
+  
+  Department of Electrical and Computer Engineering\\
+  
+  University of Alberta
+  
+  \vspace{2cm}
+  
+  404 Team Name Not Found
+  
+  \vspace{5cm}
+  \Large
+  
+  \begin{tabular}{ | m{5cm} | m{5cm} | }
+   \hline
+   Student Name  & Student \\
+   \hline
+   Arun Woosaree & XXXXXX  \\
+   \hline
+   Max           & XXXXXX  \\
+   \hline
+   Liyao         & XXXXXX  \\
+   \hline
+  \end{tabular}
+  
+  
+  % \begin{tabu} to 0.8\textwidth{  | X[c] | X[c] | }
+  %   \hline
+  %   Student Name & Student \\
+  %   \hline
+  %   Arun Woosaree & xxxxxxx \\
+  %   \hline
+  %   Navras Kamal & 1505463 \\
+  %   \hline
+  % \end{tabu}
+  
+  
+ \end{center}
+\end{titlepage}
+
+%table of contents
+\tableofcontents
+\vfill
+\newpage
+
+\section{Customer:}
+Client:
+Alberta Traffic Supply Ltd.\\
+7798 16 th Street\\
+Edmonton, Alberta, T6P 1L9\\
+Western Canada largest traffic sign manufacture and traffic control company\\
+
+\section{Description}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+culpa qui officia deserunt mollit anim id est laborum.
+
+\section{Requirements}
+\begin{enumerate}
+ \item yooo
+\end{enumerate}
+
+\section{Nice-to-haves}
+\begin{enumerate}
+ \item yooo
+\end{enumerate}
+
+
+\section{Diagrams}
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[width=\textwidth]{intersection.png}
+ \caption{INSERT CAPTION HERE}
+ \label{intersection}
+\end{figure}
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[width=\textwidth]{fsm.png}
+ \caption{INSERT CAPTION HERE}
+ \label{fsm}
+\end{figure}
+
+\end{document}
