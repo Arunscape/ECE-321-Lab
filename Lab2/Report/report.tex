@@ -173,7 +173,7 @@ road \textbf{2} is secondary
  \item \textbf{Default}
        \begin{itemize}
         \item {\color{green}\textbf{1,P2}}
-        \item {\color{red}\textbf{everything else}}
+        \item {\color{red}\textbf{2,3,P1,P3,G1,G3}}
         \item \textbf{t1} activated
         \item \textbf{M}: 0
         \item \textbf{Clock}: \textbf{D}
@@ -181,31 +181,45 @@ road \textbf{2} is secondary
  \item \textbf{Green G1}
        \begin{itemize}
         \item {\color{green}\textbf{G1,P1}}
-        \item {\color{red}\textbf{everything else}}
+        \item {\color{red}\textbf{1,2,3,P2,P3,G3}}
         \item \textbf{t2} activated
         \item \textbf{M}: 0
         \item \textbf{Clock}: \textbf{D}
        \end{itemize}
+       Notes:
+       \begin{enumerate}
+        \item \textbf{Green 3 S2} \textit{is this state, but when} \textbf{S2}=1
+       \end{enumerate}
+       
+       
  \item \textbf{Green 3}
        \begin{itemize}
         \item {\color{green}\textbf{3,G3}}
-        \item {\color{red}\textbf{P1,P2,P3}}
+        \item {\color{red}\textbf{1,2,P1,P2,P3,G1}}
         \item \textbf{t2} activated
         \item \textbf{M}: 0
         \item \textbf{Clock}: \textbf{D}
        \end{itemize}
+       Notes:
+       \begin{enumerate}
+        \item \textbf{Green 3 S2} \textit{is this state, but when} \textbf{S2}=1
+       \end{enumerate}
  \item \textbf{Green P3}
        \begin{itemize}
         \item {\color{green}\textbf{1,P2,P3}}
-        \item {\color{red}\textbf{everything else}}
+        \item {\color{red}\textbf{2,3,P1,G1,G3}}
         \item \textbf{t2} activated
         \item \textbf{M}: 0
         \item \textbf{Clock}: \textbf{D}
        \end{itemize}
+       Notes:
+       \begin{enumerate}
+        \item \textbf{Green 3 S2} \textit{is this state, but when} \textbf{S2}=1
+       \end{enumerate}
  \item \textbf{Green 2\&3}
        \begin{itemize}
         \item {\color{green}\textbf{2,3}}
-        \item {\color{red}\textbf{everything else}}
+        \item {\color{red}\textbf{1,P1,P2,P3,G1,G3}}
         \item \textbf{t2} activated
         \item \textbf{M}: 0
         \item \textbf{Clock}: \textbf{D}
@@ -214,13 +228,15 @@ road \textbf{2} is secondary
        \begin{itemize}
         \item {\color{green}\textbf{1}} \textbf{BG}
         \item {\color{red}\textbf{2,3}} \textbf{BR}
+        \item \textbf{P1,P2,P3,G1,G3} are turned off
         \item \textbf{M}: 0
         \item \textbf{Clock}: \textbf{N}
        \end{itemize}
  \item \textbf{Emergency}
        \begin{itemize}
-        \item {\color{green}\textbf{G1,P1}}
-        \item {\color{red}\textbf{everything else}}
+        \item {\color{green}\textbf{1}} \textbf{BG}
+        \item {\color{red}\textbf{2,3}} \textbf{BR}
+        \item \textbf{P1,P2,P3,G1,G3} are turned off
         \item \textbf{M}: 1
         \item \textbf{Clock}: \textbf{D} or \textbf{N}
        \end{itemize}
@@ -232,5 +248,20 @@ road \textbf{2} is secondary
  \caption{INSERT CAPTION HERE}
  \label{fsm}
 \end{figure}
+
+\section{Special considerations}
+
+\begin{enumerate}
+ \item Security\\
+       Here's how we make the system more secure:
+       \begin{enumerate}
+        \item step 1
+        \item step 2
+        \item step 3
+       \end{enumerate}
+ \item Reliability
+ \item Synced timings
+\end{enumerate}
+
 
 \end{document}
