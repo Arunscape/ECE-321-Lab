@@ -127,6 +127,7 @@ requirements of the larger system to the functionality of this software and
 identify interfaces between the two. A simple diagram that shows the major
 components of the overall system, subsystem interconnections, and external
 interfaces can be helpful.$>$
+In this SRS document, we are specifying the software for controlling the Traffic Light System (TLS) at a simple intersection. It is new self-contained software.
 
 \section{Product Functions}
 $<$Summarize the major functions the product must perform or must let the user
@@ -295,6 +296,43 @@ roles can perform which functions under specific circumstances. These are not
 functional requirements in themselves, but they may imply certain functional
 requirements to enforce the rules.$>$
 
+\subsection{Background, Business opportunity, Customer needs}
+The intersection is currently quite busy and unsafe for travelers. The system
+should help with optimizing the flow of traffic through the intersection so that
+travelers get to their destination safely. Priority should be given to vehicles
+on Road 1, since that is the road with the most volume of vehicles passing
+through the intersection. Road 3 is also a main road, and Road 2 should be given
+the least priority. With the implementation of a traffic light control system,
+the intersection should become much safer overall, and help decrease congestion
+in the area.
+
+\subsection{Business objectives and success criteria}
+\begin{enumerate}
+ \item BO-1: Implement a fully functional traffic light control system at the
+       target intersection.
+ \item BO-2: Implement a “night mode” which controls the intersection
+       during specified night hours.
+ \item BO-3: Implement an “emergency mode” which controls
+       the intersection in case malfunctions occur in the control system.
+ \item BO-4: A pedestrian light that turns green only when a button is pressed
+       and is safe to do so.
+ \item BO-5: Make sure the control system complies with local traffic laws.
+ \item SC-1: Make sure the traffic flows well following initial release.
+ \item SC-2: Decreased injuries after the system has been implemented.
+\end{enumerate}
+
+\subsection{Business risks}
+\begin{enumerate}
+ \item RI-1: The implementation of a traffic light control system might increase
+       traffic flow through said intersection, causing unexpected congestion
+       (Prob=0.5, Impact= 4)
+ \item RI-2: The timing of the lights may not be synced with lights from close-by
+       intersections, causing frustration in drivers (Prob=0.8, Impact=6)
+ \item RI-3: Drivers ignoring traffic laws and cross red lights (Prob=0.000371,
+       Impact=9)
+ \item RI-4: Pedestrians ignoring pedestrian lights(Prob=0.1, Impact=9)
+       
+\end{enumerate}
 
 \chapter{Other Requirements}
 $<$Define any other requirements not covered elsewhere in the SRS. This might
