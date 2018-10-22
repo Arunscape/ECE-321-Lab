@@ -19,9 +19,11 @@
 \synctex=1
 \usepackage{listings}
 \usepackage{underscore}
-\usepackage[bookmarks=true]{hyperref}
+\usepackage[bookmarks=true, breaklinks=true]{hyperref}
+\def\UrlBreaks{\do\/\do-}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
+\usepackage{xcolor}
 \hypersetup{
     bookmarks=false,    % show bookmarks bar?
     pdftitle={Software Requirement Specification},    % title
@@ -50,13 +52,13 @@
   \vspace{1.9cm}
   for\\
   \vspace{1.9cm}
-  $<$Project$>$\\
+  Traffic Light System\\
   \vspace{1.9cm}
   \LARGE{Version \myversion approved}\\
   \vspace{1.9cm}
-  Prepared by $<$author$>$\\
+  Prepared by 404 Team Name Not Found\\
   \vspace{1.9cm}
-  $<$Organization$>$\\
+  HireMe Software Ltd.\\
   \vspace{1.9cm}
   \today\\
  \end{bfseries}
@@ -70,11 +72,11 @@
 \begin{center}
  \begin{tabular}{|c|c|c|c|}
   \hline
-  Name & Date & Reason For Changes & Version \\
+  Name          & Date             & Reason For Changes & Version \\
   \hline
-  21   & 22   & 23                 & 24      \\
-  \hline
-  31   & 32   & 33                 & 34      \\
+  Arun Woosaree & October 22, 2018 & Create document    & 1.0     \\
+  % \hline
+  % 31                      & 32     & 33                 & 34      \\
   \hline
  \end{tabular}
 \end{center}
@@ -86,6 +88,8 @@ $<$Identify the product whose software requirements are specified in this
 document, including the revision or release number. Describe the scope of the
 product that is covered by this SRS, particularly if this SRS describes only
 part of the system or a single subsystem.$>$
+
+This document outlines HireMe Software Ltd.’s vision for the implementation of a new traffic control system at a busy intersection, for customer Alberta Traffic Supply Ltd. This document is intended to be used for communication with the project’s stakeholders, and the members of the team that will implement and verify the functionality of the system. Unless specified otherwise, all requirements specified here are high priority and committed for release 4.
 
 \section{Document Conventions}
 $<$Describe any standards or typographical conventions that were followed when
@@ -108,12 +112,19 @@ including relevant benefits, objectives, and goals. Relate the software to
 corporate goals or business strategies. If a separate vision and scope document
 is available, refer to it rather than duplicating its contents here.$>$
 
+The software will be used to control the traffic lights system at the intersection. The software controls the sequence of the traffic going through the intersection and provides signals for vehicles and pedestrians to cross the intersection safely. The system implements a sensor to detect the traffic on road 2, and the traffic light for road 2 only shows green when there is traffic waiting. As a result, the main road traffic will have more time to go through the intersection.
+
 \section{References}
 $<$List any other documents or Web addresses to which this SRS refers. These may
 include user interface style guides, contracts, standards, system requirements
 specifications, use case documents, or a vision and scope document. Provide
 enough information so that the reader could access a copy of each reference,
 including title, author, version number, date, and source or location.$>$
+\begin{enumerate}
+ \item
+       \textbf{Canada Transportation Act}:
+       \url{https://www.otc-cta.gc.ca/eng/implementation-recent-amendments-canada-transportation-act}
+\end{enumerate}
 
 
 \chapter{Overall Description}
@@ -346,6 +357,42 @@ $<$Define all the terms necessary to properly interpret the SRS, including
 acronyms and abbreviations. You may wish to build a separate glossary that spans
 multiple projects or the entire organization, and just include terms specific to
 a single project in each SRS.$>$
+
+\begin{enumerate}
+
+ \item \textbf{TLMS} -
+       \textbf{T}raffic
+       \textbf{L}ight
+       \textbf{M}onitoring
+       \textbf{S}ystem
+       
+ \item \textbf{RB} -
+       \textbf{R}eset
+       \textbf{Button}
+ \item \textbf{M} - Hardware malfunction: 1 indicates a malfunction, 0 for normal operation
+ \item \textbf{1} - Light on Road 1
+ \item \textbf{2} - Light on Road 2
+ \item \textbf{3} - Light on Road 3
+ \item \textbf{P1} - Pedestrian light on road 1
+ \item \textbf{P2} - Pedestrian light on road 2
+ \item \textbf{P3} - Pedestrian light on road 3
+ \item \textbf{t1} - Timer for \textbf{1}
+ \item \textbf{t2} - Secondary timer for everything else
+ \item \textbf{G1} - Left turn signal on road 1
+ \item \textbf{G3} - Left turn signal on road 3
+ \item \textbf{S2} - Magnetic sensor which detects if a car/motorcycle is waiting on \textbf{2}\\
+       Outputs: 1 if vehicle waiting, 0 otherwise
+ \item \textbf{B3} - Button on road 3 which a pedestrian can hit to request to cross the intersection
+ \item \textbf{BG} -
+       \textbf{B}linking
+       \textbf{G}reen
+ \item \textbf{BR}
+       \textbf{B}linking
+       \textbf{R}ed
+ \item \textbf{D} - \textbf{D}ay (6:00-20:00)
+ \item \textbf{N} - \textbf{N}ight (20:00-6:00)
+ \item \textbf{Clock} - Can have value \textbf{D} or \textbf{N}
+\end{enumerate}
 
 \section{Appendix B: Analysis Models}
 $<$Optionally, include any pertinent analysis models, such as data flow
