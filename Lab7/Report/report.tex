@@ -129,11 +129,25 @@ are vanashing.
 \subsection{}
 \textit{Enumerate all states of the semaphore in the (P0, P1, P2, P3, P4, P5, P6) format.Hint: you can use "Analysis Module Manager $\rightarrow$ Reachability/Coverability Graph" option.
 }
+\\
+\\S0: (1, 1, 1, 0, 0, 0, 0)
+\\S1: (1, 0, 0, 0, 1, 0, 0)
+\\S2: (0, 1, 0, 1, 0, 0, 0)
+\\S3: (1, 0, 1, 0, 0, 0, 1)
+\\S4: (0, 1, 1, 0, 0, 1, 0)
+\\S5: (0, 0, 0, 1, 0, 0, 1)
+\\S6: (0, 0, 0, 0, 1, 1, 0)
+\\S7: (0, 0, 1, 0, 0, 1, 1)
+
 \subsection{}
 \textit{Which of the states represent a situation when process 1 OR process 2 take possession of the shared resource?}
+\\
+\\S0, S3, and S4
 
 \subsection{}
 \textit{Is it possible to reach state (0, 0, 0, 1, 1, 0, 0)? What does this state represent?}
+\\
+\\This state represents a token in P3 and a token in P4. It is not possible because the state is not found inside the reachability/coverability graph.
 
 \section{}
 
@@ -237,13 +251,13 @@ Screenshots of the lab VM for each of the group members:
 
 \begin{figure}[H]
  \centering
- \includegraphics[width=\textwidth]{max.png}
+ \includegraphics[width=\textwidth]{max.PNG}
  \caption{Zhi Shen}
 \end{figure}
 
 \begin{figure}[H]
  \centering
- \includegraphics[width=\textwidth]{liyao.jpg}
+ \includegraphics[width=\textwidth]{liyao.JPG}
  \caption{Liyao Jiang}
 \end{figure}
 
