@@ -3,7 +3,7 @@
         <token id="Default" enabled="true" red="0" green="0" blue="0"/>
         <place id="P0">
             <graphics>
-                <position x="210.0" y="135.0"/>
+                <position x="165.0" y="225.0"/>
             </graphics>
             <name>
                 <value>P0</value>
@@ -23,7 +23,7 @@
         </place>
         <place id="P1">
             <graphics>
-                <position x="855.0" y="435.0"/>
+                <position x="420.0" y="375.0"/>
             </graphics>
             <name>
                 <value>P1</value>
@@ -43,7 +43,7 @@
         </place>
         <place id="P2">
             <graphics>
-                <position x="405.0" y="105.0"/>
+                <position x="315.0" y="225.0"/>
             </graphics>
             <name>
                 <value>P2</value>
@@ -63,7 +63,7 @@
         </place>
         <place id="P3">
             <graphics>
-                <position x="270.0" y="300.0"/>
+                <position x="180.0" y="360.0"/>
             </graphics>
             <name>
                 <value>P3</value>
@@ -83,7 +83,7 @@
         </place>
         <place id="P4">
             <graphics>
-                <position x="780.0" y="570.0"/>
+                <position x="390.0" y="465.0"/>
             </graphics>
             <name>
                 <value>P4</value>
@@ -103,7 +103,7 @@
         </place>
         <place id="P5">
             <graphics>
-                <position x="225.0" y="450.0"/>
+                <position x="135.0" y="450.0"/>
             </graphics>
             <name>
                 <value>P5</value>
@@ -123,7 +123,7 @@
         </place>
         <place id="P6">
             <graphics>
-                <position x="810.0" y="750.0"/>
+                <position x="420.0" y="555.0"/>
             </graphics>
             <name>
                 <value>P6</value>
@@ -143,7 +143,7 @@
         </place>
         <place id="P7">
             <graphics>
-                <position x="855.0" y="75.0"/>
+                <position x="555.0" y="165.0"/>
             </graphics>
             <name>
                 <value>P7</value>
@@ -163,7 +163,7 @@
         </place>
         <place id="P8">
             <graphics>
-                <position x="840.0" y="225.0"/>
+                <position x="540.0" y="285.0"/>
             </graphics>
             <name>
                 <value>P8</value>
@@ -183,7 +183,7 @@
         </place>
         <place id="P9">
             <graphics>
-                <position x="930.0" y="345.0"/>
+                <position x="570.0" y="390.0"/>
             </graphics>
             <name>
                 <value>P9</value>
@@ -203,7 +203,7 @@
         </place>
         <transition id="T0">
             <graphics>
-                <position x="317.5" y="222.5"/>
+                <position x="225.0" y="285.0"/>
             </graphics>
             <name>
                 <value>T0</value>
@@ -229,7 +229,7 @@
         </transition>
         <transition id="T1">
             <graphics>
-                <position x="675.0" y="480.0"/>
+                <position x="360.0" y="405.0"/>
             </graphics>
             <name>
                 <value>T1</value>
@@ -255,7 +255,7 @@
         </transition>
         <transition id="T2">
             <graphics>
-                <position x="330.0" y="390.0"/>
+                <position x="225.0" y="405.0"/>
             </graphics>
             <name>
                 <value>T2</value>
@@ -281,7 +281,7 @@
         </transition>
         <transition id="T3">
             <graphics>
-                <position x="660.0" y="690.0"/>
+                <position x="330.0" y="510.0"/>
             </graphics>
             <name>
                 <value>T3</value>
@@ -307,7 +307,7 @@
         </transition>
         <transition id="T4">
             <graphics>
-                <position x="150.0" y="300.0"/>
+                <position x="90.0" y="330.0"/>
             </graphics>
             <name>
                 <value>T4</value>
@@ -333,7 +333,7 @@
         </transition>
         <transition id="T5">
             <graphics>
-                <position x="915.0" y="585.0"/>
+                <position x="465.0" y="465.0"/>
             </graphics>
             <name>
                 <value>T5</value>
@@ -359,7 +359,7 @@
         </transition>
         <transition id="T6">
             <graphics>
-                <position x="765.0" y="135.0"/>
+                <position x="480.0" y="225.0"/>
             </graphics>
             <name>
                 <value>T6</value>
@@ -368,7 +368,7 @@
                 </graphics>
             </name>
             <orientation>
-                <value>270</value>
+                <value>90</value>
             </orientation>
             <rate>
                 <value>1.0</value>
@@ -385,7 +385,7 @@
         </transition>
         <transition id="T7">
             <graphics>
-                <position x="735.0" y="315.0"/>
+                <position x="480.0" y="330.0"/>
             </graphics>
             <name>
                 <value>T7</value>
@@ -411,7 +411,7 @@
         </transition>
         <transition id="T8">
             <graphics>
-                <position x="960.0" y="210.0"/>
+                <position x="600.0" y="285.0"/>
             </graphics>
             <name>
                 <value>T8</value>
@@ -420,7 +420,7 @@
                 </graphics>
             </name>
             <orientation>
-                <value>270</value>
+                <value>90</value>
             </orientation>
             <rate>
                 <value>1.0</value>
@@ -444,8 +444,8 @@
             <tagged>
                 <value>false</value>
             </tagged>
-            <arcpath id="000" x="234" y="156" curvePoint="false"/>
-            <arcpath id="001" x="324" y="229" curvePoint="false"/>
+            <arcpath id="000" x="188" y="247" curvePoint="false"/>
+            <arcpath id="001" x="231" y="291" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="P1 to T1" source="P1" target="T1">
@@ -457,21 +457,21 @@
             <tagged>
                 <value>false</value>
             </tagged>
-            <arcpath id="000" x="852" y="450" curvePoint="false"/>
-            <arcpath id="001" x="701" y="492" curvePoint="false"/>
+            <arcpath id="000" x="419" y="395" curvePoint="false"/>
+            <arcpath id="001" x="386" y="417" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="P2 to T0" source="P2" target="T0">
             <graphics/>
             <inscription>
-                <value>Default,1</value>
+                <value>Default,2</value>
                 <graphics/>
             </inscription>
             <tagged>
                 <value>false</value>
             </tagged>
-            <arcpath id="000" x="408" y="129" curvePoint="false"/>
-            <arcpath id="001" x="334" y="230" curvePoint="false"/>
+            <arcpath id="000" x="314" y="245" curvePoint="false"/>
+            <arcpath id="001" x="241" y="292" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="P2 to T1" source="P2" target="T1">
@@ -483,8 +483,8 @@
             <tagged>
                 <value>false</value>
             </tagged>
-            <arcpath id="000" x="425" y="129" curvePoint="false"/>
-            <arcpath id="001" x="686" y="486" curvePoint="false"/>
+            <arcpath id="000" x="330" y="251" curvePoint="false"/>
+            <arcpath id="001" x="371" y="411" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="P2 to T6" source="P2" target="T6">
@@ -496,8 +496,8 @@
             <tagged>
                 <value>false</value>
             </tagged>
-            <arcpath id="000" x="431" y="118" curvePoint="false"/>
-            <arcpath id="001" x="762" y="146" curvePoint="false"/>
+            <arcpath id="000" x="342" y="237" curvePoint="false"/>
+            <arcpath id="001" x="476" y="237" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="P3 to T2" source="P3" target="T2">
@@ -509,8 +509,8 @@
             <tagged>
                 <value>false</value>
             </tagged>
-            <arcpath id="000" x="290" y="325" curvePoint="false"/>
-            <arcpath id="001" x="336" y="396" curvePoint="false"/>
+            <arcpath id="000" x="203" y="382" curvePoint="false"/>
+            <arcpath id="001" x="231" y="411" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="P4 to T3" source="P4" target="T3">
@@ -522,8 +522,8 @@
             <tagged>
                 <value>false</value>
             </tagged>
-            <arcpath id="000" x="781" y="592" curvePoint="false"/>
-            <arcpath id="001" x="676" y="697" curvePoint="false"/>
+            <arcpath id="000" x="389" y="485" curvePoint="false"/>
+            <arcpath id="001" x="346" y="517" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="P5 to T4" source="P5" target="T4">
@@ -535,8 +535,8 @@
             <tagged>
                 <value>false</value>
             </tagged>
-            <arcpath id="000" x="230" y="449" curvePoint="false"/>
-            <arcpath id="001" x="161" y="316" curvePoint="false"/>
+            <arcpath id="000" x="141" y="448" curvePoint="false"/>
+            <arcpath id="001" x="101" y="346" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="P6 to T5" source="P6" target="T5">
@@ -548,8 +548,8 @@
             <tagged>
                 <value>false</value>
             </tagged>
-            <arcpath id="000" x="830" y="749" curvePoint="false"/>
-            <arcpath id="001" x="926" y="601" curvePoint="false"/>
+            <arcpath id="000" x="438" y="553" curvePoint="false"/>
+            <arcpath id="001" x="476" y="481" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="P7 to T6" source="P7" target="T6">
@@ -561,8 +561,8 @@
             <tagged>
                 <value>false</value>
             </tagged>
-            <arcpath id="000" x="854" y="95" curvePoint="false"/>
-            <arcpath id="001" x="777" y="142" curvePoint="false"/>
+            <arcpath id="000" x="554" y="185" curvePoint="false"/>
+            <arcpath id="001" x="491" y="231" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="P8 to T7" source="P8" target="T7">
@@ -574,8 +574,8 @@
             <tagged>
                 <value>false</value>
             </tagged>
-            <arcpath id="000" x="840" y="246" curvePoint="false"/>
-            <arcpath id="001" x="751" y="322" curvePoint="false"/>
+            <arcpath id="000" x="539" y="305" curvePoint="false"/>
+            <arcpath id="001" x="496" y="337" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="P9 to T8" source="P9" target="T8">
@@ -587,8 +587,8 @@
             <tagged>
                 <value>false</value>
             </tagged>
-            <arcpath id="000" x="945" y="342" curvePoint="false"/>
-            <arcpath id="001" x="972" y="227" curvePoint="false"/>
+            <arcpath id="000" x="586" y="387" curvePoint="false"/>
+            <arcpath id="001" x="611" y="301" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="T0 to P3" source="T0" target="P3">
@@ -600,8 +600,8 @@
             <tagged>
                 <value>false</value>
             </tagged>
-            <arcpath id="000" x="329" y="239" curvePoint="false"/>
-            <arcpath id="001" x="290" y="299" curvePoint="false"/>
+            <arcpath id="000" x="236" y="301" curvePoint="false"/>
+            <arcpath id="001" x="200" y="359" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="T1 to P4" source="T1" target="P4">
@@ -613,8 +613,8 @@
             <tagged>
                 <value>false</value>
             </tagged>
-            <arcpath id="000" x="686" y="496" curvePoint="false"/>
-            <arcpath id="001" x="780" y="572" curvePoint="false"/>
+            <arcpath id="000" x="371" y="421" curvePoint="false"/>
+            <arcpath id="001" x="394" y="463" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="T2 to P2" source="T2" target="P2">
@@ -626,8 +626,8 @@
             <tagged>
                 <value>false</value>
             </tagged>
-            <arcpath id="000" x="346" y="397" curvePoint="false"/>
-            <arcpath id="001" x="413" y="131" curvePoint="false"/>
+            <arcpath id="000" x="241" y="412" curvePoint="false"/>
+            <arcpath id="001" x="320" y="250" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="T2 to P5" source="T2" target="P5">
@@ -639,8 +639,8 @@
             <tagged>
                 <value>false</value>
             </tagged>
-            <arcpath id="000" x="341" y="406" curvePoint="false"/>
-            <arcpath id="001" x="250" y="455" curvePoint="false"/>
+            <arcpath id="000" x="221" y="417" curvePoint="false"/>
+            <arcpath id="001" x="159" y="454" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="T3 to P2" source="T3" target="P2">
@@ -652,8 +652,8 @@
             <tagged>
                 <value>false</value>
             </tagged>
-            <arcpath id="000" x="666" y="696" curvePoint="false"/>
-            <arcpath id="001" x="423" y="130" curvePoint="false"/>
+            <arcpath id="000" x="336" y="516" curvePoint="false"/>
+            <arcpath id="001" x="327" y="251" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="T3 to P6" source="T3" target="P6">
@@ -665,8 +665,8 @@
             <tagged>
                 <value>false</value>
             </tagged>
-            <arcpath id="000" x="686" y="702" curvePoint="false"/>
-            <arcpath id="001" x="808" y="755" curvePoint="false"/>
+            <arcpath id="000" x="356" y="522" curvePoint="false"/>
+            <arcpath id="001" x="419" y="559" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="T4 to P0" source="T4" target="P0">
@@ -678,8 +678,8 @@
             <tagged>
                 <value>false</value>
             </tagged>
-            <arcpath id="000" x="161" y="306" curvePoint="false"/>
-            <arcpath id="001" x="216" y="160" curvePoint="false"/>
+            <arcpath id="000" x="101" y="336" curvePoint="false"/>
+            <arcpath id="001" x="167" y="248" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="T5 to P1" source="T5" target="P1">
@@ -691,8 +691,8 @@
             <tagged>
                 <value>false</value>
             </tagged>
-            <arcpath id="000" x="926" y="591" curvePoint="false"/>
-            <arcpath id="001" x="872" y="460" curvePoint="false"/>
+            <arcpath id="000" x="476" y="471" curvePoint="false"/>
+            <arcpath id="001" x="438" y="400" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="T6 to P8" source="T6" target="P8">
@@ -704,8 +704,8 @@
             <tagged>
                 <value>false</value>
             </tagged>
-            <arcpath id="000" x="777" y="152" curvePoint="false"/>
-            <arcpath id="001" x="842" y="225" curvePoint="false"/>
+            <arcpath id="000" x="491" y="241" curvePoint="false"/>
+            <arcpath id="001" x="540" y="286" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="T7 to P2" source="T7" target="P2">
@@ -717,8 +717,8 @@
             <tagged>
                 <value>false</value>
             </tagged>
-            <arcpath id="000" x="741" y="321" curvePoint="false"/>
-            <arcpath id="001" x="430" y="125" curvePoint="false"/>
+            <arcpath id="000" x="486" y="336" curvePoint="false"/>
+            <arcpath id="001" x="339" y="244" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="T7 to P9" source="T7" target="P9">
@@ -730,8 +730,8 @@
             <tagged>
                 <value>false</value>
             </tagged>
-            <arcpath id="000" x="761" y="327" curvePoint="false"/>
-            <arcpath id="001" x="927" y="355" curvePoint="false"/>
+            <arcpath id="000" x="491" y="346" curvePoint="false"/>
+            <arcpath id="001" x="569" y="394" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="T8 to P7" source="T8" target="P7">
@@ -743,8 +743,8 @@
             <tagged>
                 <value>false</value>
             </tagged>
-            <arcpath id="000" x="972" y="217" curvePoint="false"/>
-            <arcpath id="001" x="876" y="98" curvePoint="false"/>
+            <arcpath id="000" x="611" y="291" curvePoint="false"/>
+            <arcpath id="001" x="572" y="190" curvePoint="false"/>
             <type value="normal"/>
         </arc>
     </net>
