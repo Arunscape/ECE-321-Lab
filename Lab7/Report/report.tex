@@ -13,6 +13,7 @@
 \usepackage[hidelinks]{hyperref}
 
 \usepackage{xcolor}
+\usepackage[utf8]{inputenc}
 % \usepackage[section]{placeins}
 %
 % \newenvironment{changemargin}[2]{%
@@ -28,6 +29,10 @@
 
 % \usepackage{tabu}
 %actual document
+
+\renewcommand{\thesection}{Task \arabic{section}}
+
+
 \begin{document}
 
 %titlepage
@@ -62,9 +67,9 @@
    \hline
    Arun Woosaree & XXXXXX  \\
    \hline
-   Max           & XXXXXX  \\
+   Liyao Jiang   & XXXXXX  \\
    \hline
-   Liyao         & XXXXXX  \\
+   Zhi Shen      & XXXXXX  \\
    \hline
   \end{tabular}
   
@@ -78,7 +83,7 @@
 % \vfill
 % \newpage
 
-\section{Task 1}
+\section{}
 
 \textit{Generate all possible states, in the format (P0, P1, P2) for the Petri Net shown below. Can this network run infinitely long?}
 
@@ -88,7 +93,16 @@
  % \caption{}
 \end{figure}
 
-The states are as follows: S1(1,0,0) S2(0,1,0) S3 (0,0,1). \\ \\
+The states are as follows:
+
+\begin{itemize}
+ \item S1(1,0,0)
+ \item S2(0,1,0)
+ \item S3 (0,0,1)
+\end{itemize}
+
+Net 1 can run infinitely, because it does not have a deadlock and all the states
+are vanashing.
 
 \textit{Modify the network to the below setting, and again generate all possible states. Explain why these states are different from states generated above (use proper terminology, such as predicates, places, tokens, firing, and transitions). Can this network run infinitely long, and if not what are the end-states?
  Note that arcs have numbers on them, and there is a different initial marking.
@@ -126,17 +140,15 @@ The end states are S4, S7, S8.
 \textit{Answer the following questions:}
 
 \subsection{}
-\textit{2.1  Enumerate all states of the semaphore in the (P0, P1, P2, P3, P4, P5, P6) format.
- Hint: you can use “Analysis Module Manager  Reachability/Coverability Graph” option.
+\textit{Enumerate all states of the semaphore in the (P0, P1, P2, P3, P4, P5, P6) format.Hint: you can use "Analysis Module Manager $\rightarrow$ Reachability/Coverability Graph" option.
 }
+\subsection{}
+\textit{Which of the states represent a situation when process 1 OR process 2 take possession of the shared resource?}
 
 \subsection{}
-\textit{2.2  Which of the states represent a situation when process 1 OR process 2 take possession of the shared resource?}
+\textit{Is it possible to reach state (0, 0, 0, 1, 1, 0, 0)? What does this state represent?}
 
-\subsection{}
-\textit{2.3  Is it possible to reach state (0, 0, 0, 1, 1, 0, 0)? What does this state represent?}
-
-\section{Task 3}
+\section{}
 
 \begin{figure}[H]
  \centering
@@ -147,22 +159,22 @@ The end states are S4, S7, S8.
 \textit{Answer the following questions:}
 
 \subsection{}
-\textit{3.1  How many states does this network have?
+\textit{How many states does this network have?
 }
 
 \subsection{}
-\textit{3.2  Which places are responsible for showing if a given process has access to the shared resource?}
+\textit{Which places are responsible for showing if a given process has access to the shared resource?}
 
 \subsection{}
-\textit{3.3  Is it possible that this network will have more than 4 OR less than 3 tokens in any possible state?
+\textit{Is it possible that this network will have more than 4 OR less than 3 tokens in any possible state?
  If yes, then list these states.
 }
 
 \subsection{}
-\textit{3.4  Generate four starvation cycles for this network. Represent the cycles in terms of the firing sequences. Is it possible to have more than 4 starvation cycles for this network?}
+\textit{Generate four starvation cycles for this network. Represent the cycles in terms of the firing sequences. Is it possible to have more than 4 starvation cycles for this network?}
 
 \subsection{}
-\textit{ 3.5  Modify the 3 processes semaphore model to the below one, including the initial marking.
+\textit{Modify the 3 processes semaphore model to the below one, including the initial marking.
  Note that some arcs have numbers on them, and there is a different initial marking.
 }
 
@@ -183,56 +195,69 @@ The end states are S4, S7, S8.
 \vspace{1cm}
 \textit{What is the minimum number of tokens in the above network?}
 
-\section{Task 4}
+\section{}
 
 \textit{Start by loading and compiling the two semaphores network model created in TASK 2. Use the “Analysis module manager” section.}
 
 \subsection{}
-\textit{ 4.1  Perform the state enumeration with initial marking (1, 1, 1, 0, 0, 0, 0), and answer the following questions}
+\textit{Perform the state enumeration with initial marking (1, 1, 1, 0, 0, 0, 0), and answer the following questions}
 
 \subsubsection{}
-\textit{ 4.1.1  How many reachable states are there for this network and initial marking?}
+\textit{How many reachable states are there for this network and initial marking?}
 
 \subsubsection{}
-\textit{ 4.1.2  How many places in this network never receive any tokens, how many receive a single token, and how many receive more than one token}
+\textit{How many places in this network never receive any tokens, how many receive a single token, and how many receive more than one token}
 
 no tokens: \\
 single token: \\
 more than one token: \\
 
 \subsubsection{}
-\textit{ 4.1.3  Explain what does it mean that a network is strictly conservative}
+\textit{Explain what does it mean that a network is strictly conservative}
 
 \subsubsection{}
-\textit{ 4.1.4  Does the network have any deadlocks, is it bounded and safe?}
+\textit{Does the network have any deadlocks, is it bounded and safe?}
 
 \subsubsection{}
-\textit{ 4.1.5  List all t-invariants of the network.}
+\textit{List all t-invariants of the network.}
 
 \subsection{}
-\textit{ 4.2  Perform the state enumeration with initial marking (2, 0, 2, 0, 0, 0, 0), and answer the following questions.}
+\textit{Perform the state enumeration with initial marking (2, 0, 2, 0, 0, 0, 0), and answer the following questions.}
 
 \subsubsection{}
-\textit{ 4.2.1  Which transitions can be fired in state S2 (1, 0, 2, 0, 0, 1, 0)?}
+\textit{Which transitions can be fired in state S2 (1, 0, 2, 0, 0, 1, 0)?}
 
 \subsubsection{}
-\textit{ 4.2.2  List all the reachable states in the (P0, P1, P2, P3, P4, P5, P6) format}
+\textit{List all the reachable states in the (P0, P1, P2, P3, P4, P5, P6) format}
 
 \subsubsection{}
-\textit{ 4.1.2  How many places in this network never receive any tokens, how many receive a single token, and how many receive more than one token}
+\textit{How many places in this network never receive any tokens, how many receive a single token, and how many receive more than one token}
 
 no tokens: \\
 single token: \\
 more than one token: \\
 
 
+\section{}
 
+Screenshots of the lab VM for each of the group members:
 
+\begin{figure}[H]
+ \centering
+ \includegraphics[width=\textwidth]{arun.png}
+ \caption{Arun Woosaree}
+\end{figure}
 
+\begin{figure}[H]
+ \centering
+ \includegraphics[width=\textwidth]{max.png}
+ \caption{Zhi Shen}
+\end{figure}
 
-
-
-
-
+\begin{figure}[H]
+ \centering
+ \includegraphics[width=\textwidth]{liyao.jpg}
+ \caption{Liyao Jiang}
+\end{figure}
 
 \end{document}
