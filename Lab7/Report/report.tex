@@ -271,26 +271,48 @@ The network does not have any dealocks, it is bounded and safe.
 \subsubsection{}
 \textit{List all t-invariants of the network.}
 
-T-Invariants
-T0 T1 T2 T3 T4 T5 \\
+T-Invariants\\
+format: T0 T1 T2 T3 T4 T5 \\
 0 1 0 1 0 1 \\
 1 0 1 0 1 0 \\
 
 \subsection{}
 \textit{Perform the state enumeration with initial marking (2, 0, 2, 0, 0, 0, 0), and answer the following questions.}
 
+The states are as follows:
+\begin{itemize}
+ \item S0(2, 0, 2, 0, 0, 0, 0)
+ \item S1(1, 0, 1, 1, 0, 0, 0)
+ \item S2(1, 0, 2, 0, 0, 1, 0)
+ \item S3(0, 0, 0, 2, 0, 0, 0)
+ \item S4(0, 0, 1, 1, 0, 1, 0)
+ \item S5(0, 0, 2, 0, 0, 2, 0)
+\end{itemize}
+
 \subsubsection{}
 \textit{Which transitions can be fired in state S2 (1, 0, 2, 0, 0, 1, 0)?}
+
+T0, T4
 
 \subsubsection{}
 \textit{List all the reachable states in the (P0, P1, P2, P3, P4, P5, P6) format}
 
+The reachable states are as follows:
+\begin{itemize}
+ \item S0(2, 0, 2, 0, 0, 0, 0)
+ \item S1(1, 0, 1, 1, 0, 0, 0)
+ \item S2(1, 0, 2, 0, 0, 1, 0)
+ \item S3(0, 0, 0, 2, 0, 0, 0)
+ \item S4(0, 0, 1, 1, 0, 1, 0)
+ \item S5(0, 0, 2, 0, 0, 2, 0)
+\end{itemize}
+
 \subsubsection{}
 \textit{How many places in this network never receive any tokens, how many receive a single token, and how many receive more than one token}
 
-no tokens: \\
-single token: \\
-more than one token: \\
+no tokens: 3 states -- P1, P4, P6\\
+single token: 4 states -- P0, P2, P3, P5\\
+more than one token: 4 states -- P0, P2, P3, P5\\
 
 
 \section{}
