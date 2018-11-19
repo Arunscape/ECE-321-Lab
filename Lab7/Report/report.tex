@@ -190,7 +190,17 @@ This network has 20 states (S0 - S19).
 \subsection{}
 \textit{Which places are responsible for showing if a given process has access to the shared resource?}
 
-\textbf{WTF IS THIS?}
+For the process on the left, P3 is responsible for showing the process has access
+to the shared resource, because when P3 holds a token, the shared token originally
+located at P2 is used by the left side process.
+
+For the process on the bottom, P4 is responsible for showing the process has access
+to the shared resource, because when P4 holds a token, the shared token originally
+located at P2 is used by the bottom side process.
+
+For the process on the right, P8 is responsible for showing the process has access
+to the shared resource, because when P8 holds a token, the shared token originally
+located at P2 is used by the right side process.
 
 \subsection{}
 \textit{Is it possible that this network will have more than 4 OR less than 3 tokens in any possible state?
