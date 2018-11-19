@@ -101,7 +101,7 @@ The states are as follows:
 \end{itemize}
 
 Net 1 can run infinitely, because it does not have a deadlock and all the states
-are vanashing.
+are vanishing.
 
 \textit{Modify the network to the below setting, and again generate all possible states. Explain why these states are different from states generated above (use proper terminology, such as predicates, places, tokens, firing, and transitions). Can this network run infinitely long, and if not what are the end-states?
  Note that arcs have numbers on them, and there is a different initial marking.
@@ -151,11 +151,25 @@ The end states are S4, S7, S8 which are all deadlock situations.
 \subsection{}
 \textit{Enumerate all states of the semaphore in the (P0, P1, P2, P3, P4, P5, P6) format.Hint: you can use "Analysis Module Manager $\rightarrow$ Reachability/Coverability Graph" option.
 }
+\\
+\\S0: (1, 1, 1, 0, 0, 0, 0)
+\\S1: (1, 0, 0, 0, 1, 0, 0)
+\\S2: (0, 1, 0, 1, 0, 0, 0)
+\\S3: (1, 0, 1, 0, 0, 0, 1)
+\\S4: (0, 1, 1, 0, 0, 1, 0)
+\\S5: (0, 0, 0, 1, 0, 0, 1)
+\\S6: (0, 0, 0, 0, 1, 1, 0)
+\\S7: (0, 0, 1, 0, 0, 1, 1)
+
 \subsection{}
 \textit{Which of the states represent a situation when process 1 OR process 2 take possession of the shared resource?}
+\\
+\\S0, S3, and S4
 
 \subsection{}
 \textit{Is it possible to reach state (0, 0, 0, 1, 1, 0, 0)? What does this state represent?}
+\\
+\\This state represents a token in P3 and a token in P4. It is not possible because the state is not found inside the reachability/coverability graph.
 
 \section{}
 
@@ -169,15 +183,24 @@ The end states are S4, S7, S8 which are all deadlock situations.
 
 \subsection{}
 \textit{How many states does this network have?
-}
+}\\
+
+This network has 37 states.
 
 \subsection{}
 \textit{Which places are responsible for showing if a given process has access to the shared resource?}
+
+\textbf{WTF IS THIS?}
 
 \subsection{}
 \textit{Is it possible that this network will have more than 4 OR less than 3 tokens in any possible state?
  If yes, then list these states.
 }
+
+\begin{itemize}
+ \item More than 4:
+ \item Less that 3:
+\end{itemize}
 
 \subsection{}
 \textit{Generate four starvation cycles for this network. Represent the cycles in terms of the firing sequences. Is it possible to have more than 4 starvation cycles for this network?}
@@ -282,13 +305,13 @@ Screenshots of the lab VM for each of the group members:
 
 \begin{figure}[H]
  \centering
- \includegraphics[width=\textwidth]{max.png}
+ \includegraphics[width=\textwidth]{max.PNG}
  \caption{Zhi Shen}
 \end{figure}
 
 \begin{figure}[H]
  \centering
- \includegraphics[width=\textwidth]{liyao.jpg}
+ \includegraphics[width=\textwidth]{liyao.JPG}
  \caption{Liyao Jiang}
 \end{figure}
 
