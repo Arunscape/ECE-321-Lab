@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><pnml>
+<net id="Net-One" type="P/T net">
+<token id="Default" enabled="true" red="0" green="0" blue="0"/>
+<place id="CCS MAINT 5">
+<graphics>
+<position x="300.0" y="90.0"/>
+</graphics>
+<name>
+<value>CCS MAINT 5</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="inc setting">
+<graphics>
+<position x="165.0" y="90.0"/>
+</graphics>
+<name>
+<value>inc setting</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="The INC 2">
+<graphics>
+<position x="300.0" y="375.0"/>
+</graphics>
+<name>
+<value>The INC 2</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Thr SAME 5">
+<graphics>
+<position x="420.0" y="90.0"/>
+</graphics>
+<name>
+<value>Thr SAME 5</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<transition id="inc speed for CCS">
+<graphics>
+<position x="300.0" y="225.0"/>
+</graphics>
+<name>
+<value>inc speed for CCS</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<arc id="CCS MAINT 5 to inc speed for CCS" source="CCS MAINT 5" target="inc speed for CCS">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="311" y="116" curvePoint="false"/>
+<arcpath id="001" x="310" y="231" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="inc setting to inc speed for CCS" source="inc setting" target="inc speed for CCS">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="187" y="112" curvePoint="false"/>
+<arcpath id="001" x="303" y="231" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="inc speed for CCS to CCS MAINT 5" source="inc speed for CCS" target="CCS MAINT 5">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="308" y="231" curvePoint="false"/>
+<arcpath id="001" x="311" y="116" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="inc speed for CCS to inc setting" source="inc speed for CCS" target="inc setting">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="306" y="231" curvePoint="false"/>
+<arcpath id="001" x="187" y="112" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="inc speed for CCS to The INC 2" source="inc speed for CCS" target="The INC 2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="311" y="241" curvePoint="false"/>
+<arcpath id="001" x="311" y="372" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Thr SAME 5 to inc speed for CCS" source="Thr SAME 5" target="inc speed for CCS">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="422" y="113" curvePoint="false"/>
+<arcpath id="001" x="317" y="232" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+</net>
+</pnml>
