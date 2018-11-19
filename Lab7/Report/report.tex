@@ -189,7 +189,7 @@ This network has 20 states (S0 - S19).
 \subsection{}
 \textit{Which places are responsible for showing if a given process has access to the shared resource?}
 
-P2 is the shared resource.
+P2 holds the shared resource.
 
 For the process on the left, P3 is responsible for showing the process has access
 to the shared resource, because when P3 holds a token, the shared token originally
@@ -245,7 +245,8 @@ This depends on the firing priorities.
 % Yes, two processes will be able to access the shared resource at the same time.\\
 % One such state is ()\\
 
-No, this is not possible\\
+No, this is not possible. The processes can run at the same time,
+but they won't be able to access the shared resource simultaneously.\\
 
 \textit{Is the number of tokens bounded in this network (is it possible to have a place that may have continuously increasing number of tokens)? If yes, then what is the maximum number of tokens in the network? Also, in this case list all the states in which the maximum number of tokens occurs.
  Use the (P0, P1, P2, P3, P4, P5, P6, P7, P8, P9) format
@@ -304,9 +305,10 @@ The network does not have any dealocks, it is bounded and safe.
 \subsubsection{}
 \textit{List all t-invariants of the network.}\\ \\
 T-Invariants: \\
-format: T0 T1 T2 T3 T4 T5 \\
-0 1 0 1 0 1 \\
-1 0 1 0 1 0 \\
+format: (T0 T1 T2 T3 T4 T5) \\
+
+\noindent (0 1 0 1 0 1) \\
+(1 0 1 0 1 0) \\
 
 \subsection{}
 \textit{Perform the state enumeration with initial marking (2, 0, 2, 0, 0, 0, 0), and answer the following questions.}\\
