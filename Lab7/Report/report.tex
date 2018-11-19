@@ -94,11 +94,10 @@
 \end{figure}
 
 The states are as follows:
-
 \begin{itemize}
  \item S1(1,0,0)
  \item S2(0,1,0)
- \item S3 (0,0,1)
+ \item S3(0,0,1)
 \end{itemize}
 
 Net 1 can run infinitely, because it does not have a deadlock and all the states
@@ -114,16 +113,26 @@ are vanashing.
  % \caption{}
 \end{figure}
 
-The states are as follows: S0(0,2,0) S1(0,1,1) S2(1,1,0) S3(0,0,2) S4(1,0,1)
-S5(2,0,0) S6(0,1,0) S7(0,0,1) S8(1,0,0).
+The states are as follows:
+\begin{itemize}
+ \item S0(0,2,0)
+ \item S1(0,1,1)
+ \item S2(1,1,0)
+ \item S3(0,0,2)
+ \item S4(1,0,1)
+ \item S5(2,0,0)
+ \item S6(0,1,0)
+ \item S7(0,0,1)
+ \item S8(1,0,0)
+\end{itemize}
 
 The states are different from the states generated above, because the initial
-marking is different, the initial marking is now (0,2,0), and the tokens
-required for transitions T2 and T3 are changed, so the possible firing sequences
-are also different.
+marking is different, the initial marking is now (0,2,0), and the weight for arcs
+on transitions T2 and T3 are changed, so the possible firing sequences are also
+different.
 
 This network cannot run infinitely long, because there is deadlocks in the network.
-The end states are S4, S7, S8.
+The end states are S4, S7, S8 which are all deadlock situations.
 
 
 
@@ -202,24 +211,47 @@ The end states are S4, S7, S8.
 \subsection{}
 \textit{Perform the state enumeration with initial marking (1, 1, 1, 0, 0, 0, 0), and answer the following questions}
 
+The states are as follows:
+\begin{itemize}
+ \item S0(1, 1, 1, 0, 0, 0, 0)
+ \item S1(1, 0, 0, 0, 1, 0, 0)
+ \item S2(0, 1, 0, 1, 0, 0, 0)
+ \item S3(1, 0, 1, 0, 0, 0, 1)
+ \item S4(0, 1, 1, 0, 0, 1, 0)
+ \item S5(0, 0, 0, 1, 0, 0, 1)
+ \item S6(0, 0, 0, 0, 1, 1, 0)
+ \item S7(0, 0, 1, 0, 0, 1, 1)
+\end{itemize}
+
 \subsubsection{}
 \textit{How many reachable states are there for this network and initial marking?}
+
+There are eight reachable states for this network and initial marking.
 
 \subsubsection{}
 \textit{How many places in this network never receive any tokens, how many receive a single token, and how many receive more than one token}
 
-no tokens: \\
-single token: \\
-more than one token: \\
+no tokens: 0 places -- None\\
+single token: 7 places -- P0, P1, P2, P3, P4, P5, P6\\
+more than one token: 0 places -- None\\
 
 \subsubsection{}
 \textit{Explain what does it mean that a network is strictly conservative}
 
+It means that the total number of tokens in the Petri Net is constant.
+
 \subsubsection{}
 \textit{Does the network have any deadlocks, is it bounded and safe?}
 
+The network does not have any dealocks, it is bounded and safe.
+
 \subsubsection{}
 \textit{List all t-invariants of the network.}
+
+T-Invariants
+T0 T1 T2 T3 T4 T5 \\
+0 1 0 1 0 1 \\
+1 0 1 0 1 0 \\
 
 \subsection{}
 \textit{Perform the state enumeration with initial marking (2, 0, 2, 0, 0, 0, 0), and answer the following questions.}
