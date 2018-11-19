@@ -41,26 +41,26 @@
 
   \LARGE
   ECE 321 Lab\\ Software Requirements Engineering
-  
+
   Department of Electrical and Computer Engineering\\
-  
+
   University of Alberta
-  
+
   \vspace{2cm}
-  
+
   Lab Report \# 4: Intro to Petri Nets
-  
+
   \vspace{2cm}
-  
+
   Team Name: 404 Team Name Not Found
-  
+
   \vspace{2cm}
-  
+
   \today
-  
+
   \vspace{2cm}
   \Large
-  
+
   \begin{tabular}{ | m{5cm} | m{5cm} | }
    \hline
    Student Name  & Student \\
@@ -72,9 +72,9 @@
    Zhi Shen      & XXXXXX  \\
    \hline
   \end{tabular}
-  
-  
-  
+
+
+
  \end{center}
 \end{titlepage}
 
@@ -101,7 +101,7 @@ The states are as follows:
 \end{itemize}
 
 Net 1 can run infinitely, because it does not have a deadlock and all the states
-are vanishing.
+are vanishing.\\
 
 \textit{Modify the network to the below setting, and again generate all possible states. Explain why these states are different from states generated above (use proper terminology, such as predicates, places, tokens, firing, and transitions). Can this network run infinitely long, and if not what are the end-states?
  Note that arcs have numbers on them, and there is a different initial marking.
@@ -136,7 +136,7 @@ The end states are S4, S7, S8 which are all deadlock situations.
 
 
 
-\section{Task 2}
+\section{}
 
 \textit{Build a semaphore network with the below initial marking, as shown below. Process 1 is denoted on the left, and process 2 on the right.
 }
@@ -213,7 +213,7 @@ located at P2 is used by the right side process.
 \end{itemize}
 
 \subsection{}
-\textit{Generate four starvation cycles for this network. Represent the cycles in terms of the firing sequences. Is it possible to have more than 4 starvation cycles for this network?}
+\textit{Generate four starvation cycles for this network. Represent the cycles in terms of the firing sequences. Is it possible to have more than 4 starvation cycles for this network?}\\
 
 
 $<$T0, T2, T4, T0, T2...$>$\\
@@ -294,9 +294,8 @@ It means that the total number of tokens in the Petri Net is constant.
 The network does not have any dealocks, it is bounded and safe.
 
 \subsubsection{}
-\textit{List all t-invariants of the network.}
-
-T-Invariants\\
+\textit{List all t-invariants of the network.}\\ \\
+T-Invariants: \\
 format: T0 T1 T2 T3 T4 T5 \\
 0 1 0 1 0 1 \\
 1 0 1 0 1 0 \\
