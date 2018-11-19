@@ -101,7 +101,7 @@ The states are as follows:
 \end{itemize}
 
 Net 1 can run infinitely, because it does not have a deadlock and all the states
-are vanishing.
+are vanishing.\\
 
 \textit{Modify the network to the below setting, and again generate all possible states. Explain why these states are different from states generated above (use proper terminology, such as predicates, places, tokens, firing, and transitions). Can this network run infinitely long, and if not what are the end-states?
  Note that arcs have numbers on them, and there is a different initial marking.
@@ -136,7 +136,7 @@ The end states are S4, S7, S8 which are all deadlock situations.
 
 
 
-\section{Task 2}
+\section{}
 
 \textit{Build a semaphore network with the below initial marking, as shown below. Process 1 is denoted on the left, and process 2 on the right.
 }
@@ -205,15 +205,12 @@ located at P2 is used by the right side process.
 \subsection{}
 \textit{Is it possible that this network will have more than 4 OR less than 3 tokens in any possible state?
  If yes, then list these states.
-}
+}\\
 
-\begin{itemize}
- \item More than 4:
- \item Less that 3:
-\end{itemize}
+No, this is not possible.
 
 \subsection{}
-\textit{Generate four starvation cycles for this network. Represent the cycles in terms of the firing sequences. Is it possible to have more than 4 starvation cycles for this network?}
+\textit{Generate four starvation cycles for this network. Represent the cycles in terms of the firing sequences. Is it possible to have more than 4 starvation cycles for this network?}\\
 
 
 $<$T0, T2, T4, T0, T2...$>$\\
@@ -247,15 +244,21 @@ This depends on the firing priorities.
 \vspace{2cm}
 \textit{Is the number of tokens bounded in this network (is it possible to have a place that may have continuously increasing number of tokens)? If yes, then what is the maximum number of tokens in the network? Also, in this case list all the states in which the maximum number of tokens occurs.
  Use the (P0, P1, P2, P3, P4, P5, P6, P7, P8, P9) format
-}
+}\\
 
 The network is bounded\\
 the maximum number of tokens is 6\\
 it occurs in state:\\
 S0(1, 1 ,3 ,0 ,0 ,0 ,0 ,1 ,0 ,0)
 
-\vspace{1cm}
-\textit{What is the minimum number of tokens in the above network?}
+These are the states in which the maximum number of tokens occurs:
+\begin{itemize}
+ \item (P0, P1, P2, P3, P4, P5, P6, P7, P8, P9)
+\end{itemize}
+
+\textit{What is the minimum number of tokens in the above network?}\\
+
+The minimum number of tokens is 3.
 
 the minimum number of tokens in the above network is 3
 
@@ -279,37 +282,36 @@ The states are as follows:
 \end{itemize}
 
 \subsubsection{}
-\textit{How many reachable states are there for this network and initial marking?}
+\textit{How many reachable states are there for this network and initial marking?}\\
 
 There are eight reachable states for this network and initial marking.
 
 \subsubsection{}
-\textit{How many places in this network never receive any tokens, how many receive a single token, and how many receive more than one token}
+\textit{How many places in this network never receive any tokens, how many receive a single token, and how many receive more than one token}\\
 
 no tokens: 0 places -- None\\
 single token: 7 places -- P0, P1, P2, P3, P4, P5, P6\\
 more than one token: 0 places -- None\\
 
 \subsubsection{}
-\textit{Explain what does it mean that a network is strictly conservative}
+\textit{Explain what does it mean that a network is strictly conservative}\\
 
 It means that the total number of tokens in the Petri Net is constant.
 
 \subsubsection{}
-\textit{Does the network have any deadlocks, is it bounded and safe?}
+\textit{Does the network have any deadlocks, is it bounded and safe?}\\
 
 The network does not have any dealocks, it is bounded and safe.
 
 \subsubsection{}
-\textit{List all t-invariants of the network.}
-
-T-Invariants\\
+\textit{List all t-invariants of the network.}\\ \\
+T-Invariants: \\
 format: T0 T1 T2 T3 T4 T5 \\
 0 1 0 1 0 1 \\
 1 0 1 0 1 0 \\
 
 \subsection{}
-\textit{Perform the state enumeration with initial marking (2, 0, 2, 0, 0, 0, 0), and answer the following questions.}
+\textit{Perform the state enumeration with initial marking (2, 0, 2, 0, 0, 0, 0), and answer the following questions.}\\
 
 The states are as follows:
 \begin{itemize}
@@ -322,12 +324,12 @@ The states are as follows:
 \end{itemize}
 
 \subsubsection{}
-\textit{Which transitions can be fired in state S2 (1, 0, 2, 0, 0, 1, 0)?}
+\textit{Which transitions can be fired in state S2 (1, 0, 2, 0, 0, 1, 0)?}\\
 
 T0, T4
 
 \subsubsection{}
-\textit{List all the reachable states in the (P0, P1, P2, P3, P4, P5, P6) format}
+\textit{List all the reachable states in the (P0, P1, P2, P3, P4, P5, P6) format}\\
 
 The reachable states are as follows:
 \begin{itemize}
@@ -341,7 +343,7 @@ The reachable states are as follows:
 
 \subsubsection{}
 \textit{How many places in this network never receive any tokens, how many receive a single token, and how many receive more than one token}
-
+\noindent\\
 no tokens: 3 states -- P1, P4, P6\\
 single token: 4 states -- P0, P2, P3, P5\\
 more than one token: 4 states -- P0, P2, P3, P5\\
