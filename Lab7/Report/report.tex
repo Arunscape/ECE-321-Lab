@@ -41,26 +41,26 @@
 
   \LARGE
   ECE 321 Lab\\ Software Requirements Engineering
-
+  
   Department of Electrical and Computer Engineering\\
-
+  
   University of Alberta
-
+  
   \vspace{2cm}
-
+  
   Lab Report \# 4: Intro to Petri Nets
-
+  
   \vspace{2cm}
-
+  
   Team Name: 404 Team Name Not Found
-
+  
   \vspace{2cm}
-
+  
   \today
-
+  
   \vspace{2cm}
   \Large
-
+  
   \begin{tabular}{ | m{5cm} | m{5cm} | }
    \hline
    Student Name  & Student \\
@@ -72,9 +72,9 @@
    Zhi Shen      & XXXXXX  \\
    \hline
   \end{tabular}
-
-
-
+  
+  
+  
  \end{center}
 \end{titlepage}
 
@@ -114,7 +114,20 @@ are vanashing.
  % \caption{}
 \end{figure}
 
-\section{}
+The states are as follows: S0(0,2,0) S1(0,1,1) S2(1,1,0) S3(0,0,2) S4(1,0,1)
+S5(2,0,0) S6(0,1,0) S7(0,0,1) S8(1,0,0).
+
+The states are different from the states generated above, because the initial
+marking is different, the initial marking is now (0,2,0), and the tokens
+required for transitions T2 and T3 are changed, so the possible firing sequences
+are also different.
+
+This network cannot run infinitely long, because there is deadlocks in the network.
+The end states are S4, S7, S8.
+
+
+
+\section{Task 2}
 
 \textit{Build a semaphore network with the below initial marking, as shown below. Process 1 is denoted on the left, and process 2 on the right.
 }
