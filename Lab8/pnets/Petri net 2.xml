@@ -3,7 +3,7 @@
 <token id="Default" enabled="true" red="0" green="0" blue="0"/>
 <place id="above freq">
 <graphics>
-<position x="555.0" y="330.0"/>
+<position x="442.5" y="242.5"/>
 </graphics>
 <name>
 <value>above freq</value>
@@ -23,12 +23,12 @@
 </place>
 <place id="at freq">
 <graphics>
-<position x="45.0" y="330.0"/>
+<position x="132.5" y="242.5"/>
 </graphics>
 <name>
 <value>at freq</value>
 <graphics>
-<offset x="38.0" y="0.0"/>
+<offset x="38.0" y="-6.875"/>
 </graphics>
 </name>
 <initialMarking>
@@ -43,7 +43,7 @@
 </place>
 <place id="below freq">
 <graphics>
-<position x="435.0" y="165.0"/>
+<position x="385.0" y="165.0"/>
 </graphics>
 <name>
 <value>below freq</value>
@@ -83,7 +83,7 @@
 </place>
 <place id="The INC">
 <graphics>
-<position x="300.0" y="480.0"/>
+<position x="287.5" y="330.0"/>
 </graphics>
 <name>
 <value>The INC</value>
@@ -103,7 +103,7 @@
 </place>
 <place id="Thr DEC">
 <graphics>
-<position x="465.0" y="480.0"/>
+<position x="390.0" y="330.0"/>
 </graphics>
 <name>
 <value>Thr DEC</value>
@@ -123,12 +123,12 @@
 </place>
 <place id="Thr SAME 2">
 <graphics>
-<position x="135.0" y="165.0"/>
+<position x="185.0" y="165.0"/>
 </graphics>
 <name>
 <value>Thr SAME 2</value>
 <graphics>
-<offset x="50.0" y="0.0"/>
+<offset x="46.25" y="-7.5"/>
 </graphics>
 </name>
 <initialMarking>
@@ -143,12 +143,12 @@
 </place>
 <transition id="dec speed">
 <graphics>
-<position x="405.0" y="330.0"/>
+<position x="355.0" y="242.5"/>
 </graphics>
 <name>
 <value>dec speed</value>
 <graphics>
-<offset x="74.0" y="36.0"/>
+<offset x="67.75" y="27.875"/>
 </graphics>
 </name>
 <orientation>
@@ -169,12 +169,12 @@
 </transition>
 <transition id="inc speed">
 <graphics>
-<position x="285.0" y="240.0"/>
+<position x="285.0" y="165.0"/>
 </graphics>
 <name>
 <value>inc speed</value>
 <graphics>
-<offset x="43.0" y="29.0"/>
+<offset x="44.666666666666664" y="33.99999999999999"/>
 </graphics>
 </name>
 <orientation>
@@ -195,7 +195,7 @@
 </transition>
 <transition id="stab speed">
 <graphics>
-<position x="210.0" y="330.0"/>
+<position x="235.0" y="242.5"/>
 </graphics>
 <name>
 <value>stab speed</value>
@@ -228,7 +228,7 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="552" y="342" curvePoint="false"/>
+<arcpath id="000" x="704" y="402" curvePoint="false"/>
 <arcpath id="001" x="431" y="342" curvePoint="false"/>
 <type value="normal"/>
 </arc>
@@ -241,8 +241,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="71" y="342" curvePoint="false"/>
-<arcpath id="001" x="206" y="342" curvePoint="false"/>
+<arcpath id="000" x="159" y="255" curvePoint="false"/>
+<arcpath id="001" x="231" y="255" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="below freq to inc speed" source="below freq" target="inc speed">
@@ -254,8 +254,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="433" y="184" curvePoint="false"/>
-<arcpath id="001" x="311" y="252" curvePoint="false"/>
+<arcpath id="000" x="382" y="177" curvePoint="false"/>
+<arcpath id="001" x="311" y="178" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="CCS MAINT 2 to dec speed" source="CCS MAINT 2" target="dec speed">
@@ -267,8 +267,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="303" y="85" curvePoint="false"/>
-<arcpath id="001" x="416" y="336" curvePoint="false"/>
+<arcpath id="000" x="302" y="86" curvePoint="false"/>
+<arcpath id="001" x="366" y="249" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="CCS MAINT 2 to inc speed" source="CCS MAINT 2" target="inc speed">
@@ -280,8 +280,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="296" y="86" curvePoint="false"/>
-<arcpath id="001" x="291" y="246" curvePoint="false"/>
+<arcpath id="000" x="298" y="86" curvePoint="false"/>
+<arcpath id="001" x="301" y="172" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="CCS MAINT 2 to stab speed" source="CCS MAINT 2" target="stab speed">
@@ -294,7 +294,7 @@
 <value>false</value>
 </tagged>
 <arcpath id="000" x="293" y="86" curvePoint="false"/>
-<arcpath id="001" x="226" y="337" curvePoint="false"/>
+<arcpath id="001" x="251" y="250" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="dec speed to above freq" source="dec speed" target="above freq">
@@ -306,8 +306,21 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="431" y="342" curvePoint="false"/>
-<arcpath id="001" x="552" y="342" curvePoint="false"/>
+<arcpath id="000" x="381" y="255" curvePoint="false"/>
+<arcpath id="001" x="440" y="255" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="dec speed to CCS MAINT 2" source="dec speed" target="CCS MAINT 2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="411" y="336" curvePoint="false"/>
+<arcpath id="001" x="469" y="138" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="dec speed to Thr DEC" source="dec speed" target="Thr DEC">
@@ -319,8 +332,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="424" y="347" curvePoint="false"/>
-<arcpath id="001" x="471" y="477" curvePoint="false"/>
+<arcpath id="000" x="371" y="260" curvePoint="false"/>
+<arcpath id="001" x="396" y="328" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="inc speed to below freq" source="inc speed" target="below freq">
@@ -333,7 +346,7 @@
 <value>false</value>
 </tagged>
 <arcpath id="000" x="311" y="177" curvePoint="false"/>
-<arcpath id="001" x="432" y="177" curvePoint="false"/>
+<arcpath id="001" x="613" y="276" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="inc speed to CCS MAINT 2" source="inc speed" target="CCS MAINT 2">
@@ -345,8 +358,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="301" y="247" curvePoint="false"/>
-<arcpath id="001" x="297" y="86" curvePoint="false"/>
+<arcpath id="000" x="291" y="171" curvePoint="false"/>
+<arcpath id="001" x="296" y="86" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="inc speed to The INC" source="inc speed" target="The INC">
@@ -358,8 +371,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="291" y="256" curvePoint="false"/>
-<arcpath id="001" x="310" y="477" curvePoint="false"/>
+<arcpath id="000" x="296" y="181" curvePoint="false"/>
+<arcpath id="001" x="299" y="327" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="stab speed to at freq" source="stab speed" target="at freq">
@@ -372,7 +385,20 @@
 <value>false</value>
 </tagged>
 <arcpath id="000" x="206" y="342" curvePoint="false"/>
-<arcpath id="001" x="71" y="342" curvePoint="false"/>
+<arcpath id="001" x="223" y="385" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="stab speed to CCS MAINT 2" source="stab speed" target="CCS MAINT 2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="227" y="337" curvePoint="false"/>
+<arcpath id="001" x="458" y="131" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="stab speed to Thr SAME 2" source="stab speed" target="Thr SAME 2">
@@ -384,8 +410,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="216" y="336" curvePoint="false"/>
-<arcpath id="001" x="152" y="190" curvePoint="false"/>
+<arcpath id="000" x="241" y="249" curvePoint="false"/>
+<arcpath id="001" x="205" y="190" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="The INC to dec speed" source="The INC" target="dec speed">
@@ -397,8 +423,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="320" y="479" curvePoint="false"/>
-<arcpath id="001" x="410" y="346" curvePoint="false"/>
+<arcpath id="000" x="308" y="330" curvePoint="false"/>
+<arcpath id="001" x="361" y="259" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="The INC to stab speed" source="The INC" target="stab speed">
@@ -410,8 +436,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="304" y="479" curvePoint="false"/>
-<arcpath id="001" x="221" y="346" curvePoint="false"/>
+<arcpath id="000" x="291" y="329" curvePoint="false"/>
+<arcpath id="001" x="246" y="259" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="Thr SAME 2 to inc speed" source="Thr SAME 2" target="inc speed">
@@ -423,8 +449,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="160" y="184" curvePoint="false"/>
-<arcpath id="001" x="281" y="252" curvePoint="false"/>
+<arcpath id="000" x="211" y="177" curvePoint="false"/>
+<arcpath id="001" x="281" y="177" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 </net>

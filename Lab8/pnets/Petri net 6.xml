@@ -3,12 +3,12 @@
 <token id="Default" enabled="true" red="0" green="0" blue="0"/>
 <place id="CCS MAINT 5">
 <graphics>
-<position x="300.0" y="90.0"/>
+<position x="196.875" y="99.375"/>
 </graphics>
 <name>
 <value>CCS MAINT 5</value>
 <graphics>
-<offset x="0.0" y="0.0"/>
+<offset x="49.375" y="-5.0"/>
 </graphics>
 </name>
 <initialMarking>
@@ -23,12 +23,12 @@
 </place>
 <place id="inc setting">
 <graphics>
-<position x="165.0" y="90.0"/>
+<position x="90.0" y="99.375"/>
 </graphics>
 <name>
 <value>inc setting</value>
 <graphics>
-<offset x="0.0" y="0.0"/>
+<offset x="45.625" y="-8.75"/>
 </graphics>
 </name>
 <initialMarking>
@@ -43,12 +43,12 @@
 </place>
 <place id="The INC 2">
 <graphics>
-<position x="300.0" y="375.0"/>
+<position x="196.875" y="375.0"/>
 </graphics>
 <name>
 <value>The INC 2</value>
 <graphics>
-<offset x="0.0" y="0.0"/>
+<offset x="-3.75" y="26.875"/>
 </graphics>
 </name>
 <initialMarking>
@@ -63,12 +63,12 @@
 </place>
 <place id="Thr SAME 5">
 <graphics>
-<position x="420.0" y="90.0"/>
+<position x="298.125" y="99.375"/>
 </graphics>
 <name>
 <value>Thr SAME 5</value>
 <graphics>
-<offset x="0.0" y="0.0"/>
+<offset x="45.625" y="-7.5"/>
 </graphics>
 </name>
 <initialMarking>
@@ -83,7 +83,7 @@
 </place>
 <transition id="inc speed for CCS">
 <graphics>
-<position x="300.0" y="225.0"/>
+<position x="196.875" y="225.0"/>
 </graphics>
 <name>
 <value>inc speed for CCS</value>
@@ -116,8 +116,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="311" y="116" curvePoint="false"/>
-<arcpath id="001" x="310" y="231" curvePoint="false"/>
+<arcpath id="000" x="208" y="126" curvePoint="false"/>
+<arcpath id="001" x="207" y="231" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="inc setting to inc speed for CCS" source="inc setting" target="inc speed for CCS">
@@ -129,8 +129,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="187" y="112" curvePoint="false"/>
-<arcpath id="001" x="303" y="231" curvePoint="false"/>
+<arcpath id="000" x="111" y="123" curvePoint="false"/>
+<arcpath id="001" x="200" y="231" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="inc speed for CCS to CCS MAINT 5" source="inc speed for CCS" target="CCS MAINT 5">
@@ -143,7 +143,7 @@
 <value>false</value>
 </tagged>
 <arcpath id="000" x="308" y="231" curvePoint="false"/>
-<arcpath id="001" x="311" y="116" curvePoint="false"/>
+<arcpath id="001" x="323" y="200" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="inc speed for CCS to inc setting" source="inc speed for CCS" target="inc setting">
@@ -156,7 +156,7 @@
 <value>false</value>
 </tagged>
 <arcpath id="000" x="306" y="231" curvePoint="false"/>
-<arcpath id="001" x="187" y="112" curvePoint="false"/>
+<arcpath id="001" x="186" y="187" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="inc speed for CCS to The INC 2" source="inc speed for CCS" target="The INC 2">
@@ -168,8 +168,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="311" y="241" curvePoint="false"/>
-<arcpath id="001" x="311" y="372" curvePoint="false"/>
+<arcpath id="000" x="208" y="241" curvePoint="false"/>
+<arcpath id="001" x="208" y="372" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="Thr SAME 5 to inc speed for CCS" source="Thr SAME 5" target="inc speed for CCS">
@@ -181,8 +181,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="422" y="113" curvePoint="false"/>
-<arcpath id="001" x="317" y="232" curvePoint="false"/>
+<arcpath id="000" x="301" y="123" curvePoint="false"/>
+<arcpath id="001" x="214" y="232" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 </net>
