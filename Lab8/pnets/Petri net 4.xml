@@ -23,7 +23,7 @@
 </place>
 <place id="CCS MAINT 3">
 <graphics>
-<position x="237.3529411764706" y="111.17647058823529"/>
+<position x="240.0" y="105.0"/>
 </graphics>
 <name>
 <value>CCS MAINT 3</value>
@@ -43,7 +43,7 @@
 </place>
 <place id="Thr INC 3">
 <graphics>
-<position x="237.3529411764706" y="360.88235294117646"/>
+<position x="240.0" y="360.0"/>
 </graphics>
 <name>
 <value>Thr INC 3</value>
@@ -63,7 +63,7 @@
 </place>
 <place id="Thr SAME 3">
 <graphics>
-<position x="360.88235294117646" y="119.99999999999999"/>
+<position x="360.0" y="120.0"/>
 </graphics>
 <name>
 <value>Thr SAME 3</value>
@@ -116,8 +116,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="112" y="142" curvePoint="false"/>
-<arcpath id="001" x="243" y="261" curvePoint="false"/>
+<arcpath id="000" x="114" y="143" curvePoint="false"/>
+<arcpath id="001" x="243" y="262" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="CCS MAINT 3 to start accel" source="CCS MAINT 3" target="start accel">
@@ -129,8 +129,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="250" y="138" curvePoint="false"/>
-<arcpath id="001" x="254" y="262" curvePoint="false"/>
+<arcpath id="000" x="253" y="132" curvePoint="false"/>
+<arcpath id="001" x="255" y="263" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="start accel to accelerate" source="start accel" target="accelerate">
@@ -142,8 +142,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="248" y="261" curvePoint="false"/>
-<arcpath id="001" x="112" y="142" curvePoint="false"/>
+<arcpath id="000" x="249" y="262" curvePoint="false"/>
+<arcpath id="001" x="114" y="142" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="start accel to CCS MAINT 3" source="start accel" target="CCS MAINT 3">
@@ -155,8 +155,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="250" y="261" curvePoint="false"/>
-<arcpath id="001" x="249" y="138" curvePoint="false"/>
+<arcpath id="000" x="252" y="262" curvePoint="false"/>
+<arcpath id="001" x="252" y="132" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="start accel to Thr INC 3" source="start accel" target="Thr INC 3">
@@ -168,8 +168,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="251" y="271" curvePoint="false"/>
-<arcpath id="001" x="250" y="358" curvePoint="false"/>
+<arcpath id="000" x="252" y="272" curvePoint="false"/>
+<arcpath id="001" x="252" y="358" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="Thr SAME 3 to start accel" source="Thr SAME 3" target="start accel">
@@ -181,8 +181,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="362" y="143" curvePoint="false"/>
-<arcpath id="001" x="257" y="262" curvePoint="false"/>
+<arcpath id="000" x="363" y="144" curvePoint="false"/>
+<arcpath id="001" x="261" y="263" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 </net>

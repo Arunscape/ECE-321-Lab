@@ -116,8 +116,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="238" y="342" curvePoint="false"/>
-<arcpath id="001" x="241" y="412" curvePoint="false"/>
+<arcpath id="000" x="237" y="342" curvePoint="false"/>
+<arcpath id="001" x="236" y="412" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="dec setting to dec speed for CCS" source="dec setting" target="dec speed for CCS">
@@ -129,8 +129,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="143" y="337" curvePoint="false"/>
-<arcpath id="001" x="227" y="411" curvePoint="false"/>
+<arcpath id="000" x="144" y="337" curvePoint="false"/>
+<arcpath id="001" x="229" y="412" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="dec speed for CCS to CCS MAINT 6" source="dec speed for CCS" target="CCS MAINT 6">
@@ -142,7 +142,7 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="236" y="412" curvePoint="false"/>
+<arcpath id="000" x="234" y="412" curvePoint="false"/>
 <arcpath id="001" x="237" y="342" curvePoint="false"/>
 <type value="normal"/>
 </arc>
@@ -155,8 +155,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="231" y="412" curvePoint="false"/>
-<arcpath id="001" x="143" y="337" curvePoint="false"/>
+<arcpath id="000" x="232" y="412" curvePoint="false"/>
+<arcpath id="001" x="144" y="337" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="dec speed for CCS to Thr DEC 3" source="dec speed for CCS" target="Thr DEC 3">
@@ -169,7 +169,7 @@
 <value>false</value>
 </tagged>
 <arcpath id="000" x="237" y="422" curvePoint="false"/>
-<arcpath id="001" x="237" y="492" curvePoint="false"/>
+<arcpath id="001" x="237" y="493" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="Thr SAME 6 to dec speed for CCS" source="Thr SAME 6" target="dec speed for CCS">
@@ -182,7 +182,7 @@
 <value>false</value>
 </tagged>
 <arcpath id="000" x="317" y="338" curvePoint="false"/>
-<arcpath id="001" x="246" y="413" curvePoint="false"/>
+<arcpath id="001" x="243" y="413" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 </net>
