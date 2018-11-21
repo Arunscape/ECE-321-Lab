@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="ISO-8859-1"?><pnml>
     <net id="Net-One" type="P/T net">
         <token id="Default" enabled="true" red="0" green="0" blue="0"/>
-        <labels x="60" y="2076" width="101" height="15" border="true">
-            <text>F</text>
-        </labels>
         <place id="above freq">
             <graphics>
-                <position x="90.0" y="480.0"/>
+                <position x="109.1666666666667" y="476.6666666666667"/>
             </graphics>
             <name>
                 <value>above freq</value>
@@ -26,7 +23,7 @@
         </place>
         <place id="accelerate">
             <graphics>
-                <position x="90.0" y="750.0"/>
+                <position x="84.1666666666667" y="684.1666666666667"/>
             </graphics>
             <name>
                 <value>accelerate</value>
@@ -46,7 +43,7 @@
         </place>
         <place id="at freq">
             <graphics>
-                <position x="90.0" y="420.0"/>
+                <position x="109.1666666666667" y="416.6666666666667"/>
             </graphics>
             <name>
                 <value>at freq</value>
@@ -66,7 +63,7 @@
         </place>
         <place id="below freq">
             <graphics>
-                <position x="90.0" y="360.0"/>
+                <position x="109.1666666666667" y="356.6666666666667"/>
             </graphics>
             <name>
                 <value>below freq</value>
@@ -86,7 +83,7 @@
         </place>
         <place id="brake">
             <graphics>
-                <position x="90.0" y="810.0"/>
+                <position x="102.5" y="750.0"/>
             </graphics>
             <name>
                 <value>brake</value>
@@ -106,7 +103,7 @@
         </place>
         <place id="CCS maint">
             <graphics>
-                <position x="285.0" y="622.5"/>
+                <position x="304.1666666666667" y="619.1666666666667"/>
             </graphics>
             <name>
                 <value>CCS maint</value>
@@ -126,7 +123,7 @@
         </place>
         <place id="CCS not maint">
             <graphics>
-                <position x="285.0" y="705.0"/>
+                <position x="304.1666666666667" y="701.6666666666667"/>
             </graphics>
             <name>
                 <value>CCS not maint</value>
@@ -135,7 +132,7 @@
                 </graphics>
             </name>
             <initialMarking>
-                <value>Default,0</value>
+                <value>Default,1</value>
                 <graphics>
                     <offset x="0.0" y="0.0"/>
                 </graphics>
@@ -146,7 +143,7 @@
         </place>
         <place id="CCS ON">
             <graphics>
-                <position x="277.5" y="157.5"/>
+                <position x="296.6666666666667" y="154.16666666666669"/>
             </graphics>
             <name>
                 <value>CCS ON</value>
@@ -166,7 +163,7 @@
         </place>
         <place id="dec setting">
             <graphics>
-                <position x="75.0" y="630.0"/>
+                <position x="94.16666666666667" y="626.6666666666667"/>
             </graphics>
             <name>
                 <value>dec setting</value>
@@ -186,7 +183,7 @@
         </place>
         <place id="Eng ON">
             <graphics>
-                <position x="275.0" y="65.0"/>
+                <position x="294.1666666666667" y="61.66666666666667"/>
             </graphics>
             <name>
                 <value>Eng ON</value>
@@ -206,7 +203,7 @@
         </place>
         <place id="inc setting">
             <graphics>
-                <position x="75.0" y="585.0"/>
+                <position x="94.16666666666667" y="581.6666666666667"/>
             </graphics>
             <name>
                 <value>inc setting</value>
@@ -226,7 +223,7 @@
         </place>
         <place id="start car">
             <graphics>
-                <position x="60.0" y="45.0"/>
+                <position x="79.16666666666667" y="41.66666666666667"/>
             </graphics>
             <name>
                 <value>start car</value>
@@ -246,7 +243,7 @@
         </place>
         <place id="start CCS">
             <graphics>
-                <position x="60.0" y="135.0"/>
+                <position x="79.16666666666667" y="131.66666666666669"/>
             </graphics>
             <name>
                 <value>start CCS</value>
@@ -266,7 +263,7 @@
         </place>
         <place id="Thr DEC">
             <graphics>
-                <position x="292.5" y="532.5"/>
+                <position x="311.6666666666667" y="529.1666666666667"/>
             </graphics>
             <name>
                 <value>Thr DEC</value>
@@ -286,7 +283,7 @@
         </place>
         <place id="Thr INC">
             <graphics>
-                <position x="292.5" y="442.5"/>
+                <position x="311.6666666666667" y="439.1666666666667"/>
             </graphics>
             <name>
                 <value>Thr INC</value>
@@ -306,7 +303,7 @@
         </place>
         <place id="Thr MAN">
             <graphics>
-                <position x="277.5" y="360.0"/>
+                <position x="296.6666666666667" y="356.6666666666667"/>
             </graphics>
             <name>
                 <value>Thr MAN</value>
@@ -326,7 +323,7 @@
         </place>
         <place id="Thr SAME">
             <graphics>
-                <position x="262.5" y="255.0"/>
+                <position x="281.6666666666667" y="251.66666666666669"/>
             </graphics>
             <name>
                 <value>Thr SAME</value>
@@ -335,7 +332,7 @@
                 </graphics>
             </name>
             <initialMarking>
-                <value>Default,0</value>
+                <value>Default,1</value>
                 <graphics>
                     <offset x="0.0" y="0.0"/>
                 </graphics>
@@ -346,7 +343,7 @@
         </place>
         <transition id="S1 -&gt; S2">
             <graphics>
-                <position x="550.0" y="55.0"/>
+                <position x="569.1666666666667" y="51.66666666666667"/>
             </graphics>
             <name>
                 <value>S1 -&gt; S2</value>
@@ -372,7 +369,7 @@
         </transition>
         <transition id="S2 -&gt; S1">
             <graphics>
-                <position x="550.0" y="160.0"/>
+                <position x="569.1666666666667" y="131.66666666666669"/>
             </graphics>
             <name>
                 <value>S2 -&gt; S1</value>
@@ -398,7 +395,7 @@
         </transition>
         <transition id="S2 -&gt; S3">
             <graphics>
-                <position x="535.0" y="355.0"/>
+                <position x="554.1666666666667" y="351.6666666666667"/>
             </graphics>
             <name>
                 <value>S2 -&gt; S3</value>
@@ -424,7 +421,7 @@
         </transition>
         <transition id="S3 -&gt; S2">
             <graphics>
-                <position x="540.0" y="450.0"/>
+                <position x="559.1666666666667" y="446.6666666666667"/>
             </graphics>
             <name>
                 <value>S3 -&gt; S2</value>
@@ -450,7 +447,7 @@
         </transition>
         <transition id="S3 -&gt; S4 accel down">
             <graphics>
-                <position x="525.0" y="1185.0"/>
+                <position x="1125.0" y="486.6666666666668"/>
             </graphics>
             <name>
                 <value>S3 -&gt; S4 accel down</value>
@@ -476,7 +473,7 @@
         </transition>
         <transition id="S3 -&gt; S4 increase speed CCS">
             <graphics>
-                <position x="510.0" y="1575.0"/>
+                <position x="1197.5" y="902.5"/>
             </graphics>
             <name>
                 <value>S3 -&gt; S4 increase speed CCS</value>
@@ -502,7 +499,7 @@
         </transition>
         <transition id="S3 -&gt; S4 pulse below feq">
             <graphics>
-                <position x="525.0" y="885.0"/>
+                <position x="1125.0" y="186.66666666666669"/>
             </graphics>
             <name>
                 <value>S3 -&gt; S4 pulse below feq</value>
@@ -528,7 +525,7 @@
         </transition>
         <transition id="S3 -&gt; S5 decrease speed CCS">
             <graphics>
-                <position x="510.0" y="1740.0"/>
+                <position x="1197.5" y="1067.5"/>
             </graphics>
             <name>
                 <value>S3 -&gt; S5 decrease speed CCS</value>
@@ -554,7 +551,7 @@
         </transition>
         <transition id="S3 -&gt; S5 pulse above">
             <graphics>
-                <position x="540.0" y="765.0"/>
+                <position x="1140.0" y="66.66666666666667"/>
             </graphics>
             <name>
                 <value>S3 -&gt; S5 pulse above</value>
@@ -580,7 +577,7 @@
         </transition>
         <transition id="S3 -&gt; S7">
             <graphics>
-                <position x="510.0" y="1365.0"/>
+                <position x="1197.5" y="692.5"/>
             </graphics>
             <name>
                 <value>S3 -&gt; S7</value>
@@ -606,7 +603,7 @@
         </transition>
         <transition id="S4 -&gt; S2">
             <graphics>
-                <position x="585.0" y="510.0"/>
+                <position x="604.1666666666667" y="506.6666666666668"/>
             </graphics>
             <name>
                 <value>S4 -&gt; S2</value>
@@ -632,7 +629,7 @@
         </transition>
         <transition id="S4 -&gt; S3">
             <graphics>
-                <position x="525.0" y="1035.0"/>
+                <position x="1125.0" y="336.6666666666667"/>
             </graphics>
             <name>
                 <value>S4 -&gt; S3</value>
@@ -658,7 +655,7 @@
         </transition>
         <transition id="S4 -&gt; S3 decrease speed CCS">
             <graphics>
-                <position x="540.0" y="1785.0"/>
+                <position x="1227.5" y="1112.5"/>
             </graphics>
             <name>
                 <value>S4 -&gt; S3 decrease speed CCS</value>
@@ -684,7 +681,7 @@
         </transition>
         <transition id="S4 -&gt; S3 increase speed CCS">
             <graphics>
-                <position x="540.0" y="1620.0"/>
+                <position x="1227.5" y="947.5"/>
             </graphics>
             <name>
                 <value>S4 -&gt; S3 increase speed CCS</value>
@@ -710,7 +707,7 @@
         </transition>
         <transition id="S4 -&gt; S5 pulse above">
             <graphics>
-                <position x="585.0" y="810.0"/>
+                <position x="1185.0" y="111.6666666666667"/>
             </graphics>
             <name>
                 <value>S4 -&gt; S5 pulse above</value>
@@ -736,7 +733,7 @@
         </transition>
         <transition id="S4 -&gt; S7">
             <graphics>
-                <position x="540.0" y="1410.0"/>
+                <position x="1227.5" y="737.5"/>
             </graphics>
             <name>
                 <value>S4 -&gt; S7</value>
@@ -762,7 +759,7 @@
         </transition>
         <transition id="S5 -&gt; S2">
             <graphics>
-                <position x="630.0" y="570.0"/>
+                <position x="649.1666666666667" y="566.6666666666667"/>
             </graphics>
             <name>
                 <value>S5 -&gt; S2</value>
@@ -788,7 +785,7 @@
         </transition>
         <transition id="S5 -&gt; S3">
             <graphics>
-                <position x="555.0" y="1095.0"/>
+                <position x="1155.0" y="396.6666666666667"/>
             </graphics>
             <name>
                 <value>S5 -&gt; S3</value>
@@ -814,7 +811,7 @@
         </transition>
         <transition id="S5 -&gt; S3 decrease speed CCS">
             <graphics>
-                <position x="570.0" y="1830.0"/>
+                <position x="1257.5" y="1157.5"/>
             </graphics>
             <name>
                 <value>S5 -&gt; S3 decrease speed CCS</value>
@@ -840,7 +837,7 @@
         </transition>
         <transition id="S5 -&gt; S3 inscrease speed CCS">
             <graphics>
-                <position x="570.0" y="1665.0"/>
+                <position x="1257.5" y="992.5"/>
             </graphics>
             <name>
                 <value>S5 -&gt; S3 inscrease speed CCS</value>
@@ -866,7 +863,7 @@
         </transition>
         <transition id="S5 -&gt; S4 accel down">
             <graphics>
-                <position x="555.0" y="1230.0"/>
+                <position x="1155.0" y="531.6666666666667"/>
             </graphics>
             <name>
                 <value>S5 -&gt; S4 accel down</value>
@@ -892,7 +889,7 @@
         </transition>
         <transition id="S5 -&gt; S4 pulse below">
             <graphics>
-                <position x="555.0" y="930.0"/>
+                <position x="1155.0" y="231.66666666666669"/>
             </graphics>
             <name>
                 <value>S5 -&gt; S4 pulse below</value>
@@ -918,7 +915,7 @@
         </transition>
         <transition id="S5 -&gt; S7">
             <graphics>
-                <position x="570.0" y="1455.0"/>
+                <position x="1257.5" y="782.5"/>
             </graphics>
             <name>
                 <value>S5 -&gt; S7</value>
@@ -944,7 +941,7 @@
         </transition>
         <transition id="S6 -&gt; S1">
             <graphics>
-                <position x="655.0" y="200.0"/>
+                <position x="674.1666666666667" y="196.66666666666669"/>
             </graphics>
             <name>
                 <value>S6 -&gt; S1</value>
@@ -970,7 +967,7 @@
         </transition>
         <transition id="S6 -&gt; S2">
             <graphics>
-                <position x="675.0" y="645.0"/>
+                <position x="694.1666666666667" y="641.6666666666667"/>
             </graphics>
             <name>
                 <value>S6 -&gt; S2</value>
@@ -996,7 +993,7 @@
         </transition>
         <transition id="S6 -&gt; S3">
             <graphics>
-                <position x="510.0" y="1935.0"/>
+                <position x="1197.5" y="1262.5"/>
             </graphics>
             <name>
                 <value>S6 -&gt; S3</value>
@@ -1022,7 +1019,7 @@
         </transition>
         <transition id="S6 -&gt; S7">
             <graphics>
-                <position x="600.0" y="1500.0"/>
+                <position x="1287.5" y="827.5"/>
             </graphics>
             <name>
                 <value>S6 -&gt; S7</value>
@@ -1048,7 +1045,7 @@
         </transition>
         <transition id="S7 -&gt; S1">
             <graphics>
-                <position x="735.0" y="270.0"/>
+                <position x="754.1666666666667" y="266.6666666666667"/>
             </graphics>
             <name>
                 <value>S7 -&gt; S1</value>
@@ -1074,7 +1071,7 @@
         </transition>
         <transition id="S7 -&gt; S2">
             <graphics>
-                <position x="720.0" y="705.0"/>
+                <position x="739.1666666666667" y="701.6666666666667"/>
             </graphics>
             <name>
                 <value>S7 -&gt; S2</value>
@@ -1100,7 +1097,7 @@
         </transition>
         <transition id="S7 -&gt; S3">
             <graphics>
-                <position x="540.0" y="1980.0"/>
+                <position x="1227.5" y="1307.5"/>
             </graphics>
             <name>
                 <value>S7 -&gt; S3</value>
@@ -1126,7 +1123,7 @@
         </transition>
         <transition id="S7 -&gt; S6">
             <graphics>
-                <position x="585.0" y="1275.0"/>
+                <position x="1185.0" y="576.6666666666667"/>
             </graphics>
             <name>
                 <value>S7 -&gt; S6</value>
@@ -1150,5 +1147,291 @@
                 <value>1</value>
             </priority>
         </transition>
+        <arc id="CCS maint to S3 -&gt; S2" source="CCS maint" target="S3 -&gt; S2">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="329" y="623" curvePoint="false"/>
+            <arcpath id="001" x="565" y="466" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="CCS not maint to S2 -&gt; S3" source="CCS not maint" target="S2 -&gt; S3">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="325" y="701" curvePoint="false"/>
+            <arcpath id="001" x="560" y="375" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="CCS ON to S3 -&gt; S2" source="CCS ON" target="S3 -&gt; S2">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="318" y="177" curvePoint="false"/>
+            <arcpath id="001" x="566" y="450" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Eng ON to S2 -&gt; S1" source="Eng ON" target="S2 -&gt; S1">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="320" y="77" curvePoint="false"/>
+            <arcpath id="001" x="576" y="134" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="S1 -&gt; S2 to Eng ON" source="S1 -&gt; S2" target="Eng ON">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="576" y="59" curvePoint="false"/>
+            <arcpath id="001" x="320" y="73" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="S1 -&gt; S2 to start CCS" source="S1 -&gt; S2" target="start CCS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="575" y="64" curvePoint="false"/>
+            <arcpath id="001" x="105" y="141" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="S1 -&gt; S2 to Thr MAN" source="S1 -&gt; S2" target="Thr MAN">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="575" y="74" curvePoint="false"/>
+            <arcpath id="001" x="319" y="357" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="S2 -&gt; S1 to start car" source="S2 -&gt; S1" target="start car">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="576" y="139" curvePoint="false"/>
+            <arcpath id="001" x="105" y="56" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="S2 -&gt; S1 to Thr SAME" source="S2 -&gt; S1" target="Thr SAME">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="575" y="149" curvePoint="false"/>
+            <arcpath id="001" x="307" y="258" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="S2 -&gt; S3 to CCS maint" source="S2 -&gt; S3" target="CCS maint">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="560" y="371" curvePoint="false"/>
+            <arcpath id="001" x="326" y="620" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="S2 -&gt; S3 to CCS ON" source="S2 -&gt; S3" target="CCS ON">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="561" y="355" curvePoint="false"/>
+            <arcpath id="001" x="320" y="175" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="S2 -&gt; S3 to Thr SAME" source="S2 -&gt; S3" target="Thr SAME">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="561" y="363" curvePoint="false"/>
+            <arcpath id="001" x="307" y="269" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="S3 -&gt; S2 to CCS not maint" source="S3 -&gt; S2" target="CCS not maint">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="565" y="470" curvePoint="false"/>
+            <arcpath id="001" x="326" y="703" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="S3 -&gt; S2 to start CCS" source="S3 -&gt; S2" target="start CCS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="566" y="458" curvePoint="false"/>
+            <arcpath id="001" x="104" y="151" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="S3 -&gt; S2 to Thr MAN" source="S3 -&gt; S2" target="Thr MAN">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="565" y="462" curvePoint="false"/>
+            <arcpath id="001" x="322" y="374" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="start car to S1 -&gt; S2" source="start car" target="S1 -&gt; S2">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="105" y="54" curvePoint="false"/>
+            <arcpath id="001" x="576" y="54" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="start CCS to S2 -&gt; S1" source="start CCS" target="S2 -&gt; S1">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="105" y="144" curvePoint="false"/>
+            <arcpath id="001" x="575" y="144" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="start CCS to S2 -&gt; S3" source="start CCS" target="S2 -&gt; S3">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="105" y="150" curvePoint="false"/>
+            <arcpath id="001" x="561" y="359" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Thr MAN to S2 -&gt; S1" source="Thr MAN" target="S2 -&gt; S1">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="320" y="359" curvePoint="false"/>
+            <arcpath id="001" x="575" y="154" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Thr MAN to S2 -&gt; S3" source="Thr MAN" target="S2 -&gt; S3">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="323" y="368" curvePoint="false"/>
+            <arcpath id="001" x="560" y="367" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Thr SAME to S1 -&gt; S2" source="Thr SAME" target="S1 -&gt; S2">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="305" y="255" curvePoint="false"/>
+            <arcpath id="001" x="575" y="69" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Thr SAME to S3 -&gt; S2" source="Thr SAME" target="S3 -&gt; S2">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="305" y="272" curvePoint="false"/>
+            <arcpath id="001" x="566" y="454" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
     </net>
 </pnml>
