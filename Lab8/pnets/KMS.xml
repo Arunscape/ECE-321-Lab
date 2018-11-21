@@ -1170,7 +1170,7 @@
                 <value>false</value>
             </tagged>
             <arcpath id="000" x="135" y="481" curvePoint="false"/>
-            <arcpath id="001" x="869" y="165" curvePoint="false"/>
+            <arcpath id="001" x="930" y="78" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="accelerate to S3 -&gt; S4 accel down" source="accelerate" target="S3 -&gt; S4 accel down">
@@ -1288,6 +1288,20 @@
             </tagged>
             <arcpath id="000" x="328" y="596" curvePoint="false"/>
             <arcpath id="001" x="869" y="170" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="CCS maint to S3 -&gt; S5 decrease speed CCS" source="CCS maint" target="S3 -&gt; S5 decrease speed CCS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="330" y="604" curvePoint="false"/>
+            <arcpath id="001" x="1110" y="497" curvePoint="false"/>
+            <arcpath id="002" x="1154" y="465" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="CCS maint to S3 -&gt; S5 pulse above" source="CCS maint" target="S3 -&gt; S5 pulse above">
@@ -1420,6 +1434,19 @@
             </tagged>
             <arcpath id="000" x="321" y="174" curvePoint="false"/>
             <arcpath id="001" x="1185" y="688" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="dec setting to S3 -&gt; S5 decrease speed CCS" source="dec setting" target="S3 -&gt; S5 decrease speed CCS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="120" y="635" curvePoint="false"/>
+            <arcpath id="001" x="1155" y="453" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="Eng ON to S2 -&gt; S1" source="Eng ON" target="S2 -&gt; S1">
@@ -1709,6 +1736,46 @@
             </tagged>
             <arcpath id="000" x="869" y="168" curvePoint="false"/>
             <arcpath id="001" x="336" y="444" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="S3 -&gt; S5 decrease speed CCS to CCS maint" source="S3 -&gt; S5 decrease speed CCS" target="CCS maint">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1154" y="461" curvePoint="false"/>
+            <arcpath id="001" x="397" y="672" curvePoint="false"/>
+            <arcpath id="002" x="327" y="615" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="S3 -&gt; S5 decrease speed CCS to dec setting" source="S3 -&gt; S5 decrease speed CCS" target="dec setting">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1154" y="457" curvePoint="false"/>
+            <arcpath id="001" x="120" y="635" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="S3 -&gt; S5 decrease speed CCS to Thr DEC" source="S3 -&gt; S5 decrease speed CCS" target="Thr DEC">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1155" y="449" curvePoint="false"/>
+            <arcpath id="001" x="338" y="540" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="S3 -&gt; S5 pulse above to above freq" source="S3 -&gt; S5 pulse above" target="above freq">
@@ -2145,6 +2212,19 @@
             </tagged>
             <arcpath id="000" x="308" y="260" curvePoint="false"/>
             <arcpath id="001" x="870" y="155" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Thr SAME to S3 -&gt; S5 decrease speed CCS" source="Thr SAME" target="S3 -&gt; S5 decrease speed CCS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="308" y="266" curvePoint="false"/>
+            <arcpath id="001" x="1155" y="445" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="Thr SAME to S3 -&gt; S5 pulse above" source="Thr SAME" target="S3 -&gt; S5 pulse above">
