@@ -32,7 +32,7 @@
                 </graphics>
             </name>
             <initialMarking>
-                <value>Default,0</value>
+                <value>Default,1</value>
                 <graphics>
                     <offset x="0.0" y="0.0"/>
                 </graphics>
@@ -92,7 +92,7 @@
                 </graphics>
             </name>
             <initialMarking>
-                <value>Default,0</value>
+                <value>Default,1</value>
                 <graphics>
                     <offset x="0.0" y="0.0"/>
                 </graphics>
@@ -1170,7 +1170,20 @@
                 <value>false</value>
             </tagged>
             <arcpath id="000" x="135" y="481" curvePoint="false"/>
-            <arcpath id="001" x="869" y="165" curvePoint="false"/>
+            <arcpath id="001" x="930" y="78" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="accelerate to S3 -&gt; S4 accel down" source="accelerate" target="S3 -&gt; S4 accel down">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="110" y="691" curvePoint="false"/>
+            <arcpath id="001" x="869" y="465" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="at freq to S4 -&gt; S3" source="at freq" target="S4 -&gt; S3">
@@ -1212,6 +1225,19 @@
             <arcpath id="001" x="869" y="161" curvePoint="false"/>
             <type value="normal"/>
         </arc>
+        <arc id="brake to S3 -&gt; S7" source="brake" target="S3 -&gt; S7">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="127" y="754" curvePoint="false"/>
+            <arcpath id="001" x="1154" y="85" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
         <arc id="CCS maint to S3 -&gt; S2" source="CCS maint" target="S3 -&gt; S2">
             <graphics/>
             <inscription>
@@ -1223,6 +1249,19 @@
             </tagged>
             <arcpath id="000" x="329" y="623" curvePoint="false"/>
             <arcpath id="001" x="565" y="466" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="CCS maint to S3 -&gt; S4 accel down" source="CCS maint" target="S3 -&gt; S4 accel down">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="330" y="626" curvePoint="false"/>
+            <arcpath id="001" x="869" y="469" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="CCS maint to S3 -&gt; S4 pulse below feq" source="CCS maint" target="S3 -&gt; S4 pulse below feq">
@@ -1249,6 +1288,19 @@
             </tagged>
             <arcpath id="000" x="326" y="620" curvePoint="false"/>
             <arcpath id="001" x="884" y="49" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="CCS maint to S3 -&gt; S7" source="CCS maint" target="S3 -&gt; S7">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="329" y="623" curvePoint="false"/>
+            <arcpath id="001" x="1154" y="91" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="CCS maint to S4 -&gt; S3" source="CCS maint" target="S4 -&gt; S3">
@@ -1316,6 +1368,19 @@
             </tagged>
             <arcpath id="000" x="319" y="177" curvePoint="false"/>
             <arcpath id="001" x="566" y="450" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="CCS ON to S3 -&gt; S7" source="CCS ON" target="S3 -&gt; S7">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="323" y="164" curvePoint="false"/>
+            <arcpath id="001" x="1155" y="73" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="Eng ON to S2 -&gt; S1" source="Eng ON" target="S2 -&gt; S1">
@@ -1474,6 +1539,45 @@
             <arcpath id="001" x="322" y="374" curvePoint="false"/>
             <type value="normal"/>
         </arc>
+        <arc id="S3 -&gt; S4 accel down to accelerate" source="S3 -&gt; S4 accel down" target="accelerate">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="870" y="460" curvePoint="false"/>
+            <arcpath id="001" x="110" y="691" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="S3 -&gt; S4 accel down to CCS maint" source="S3 -&gt; S4 accel down" target="CCS maint">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="869" y="473" curvePoint="false"/>
+            <arcpath id="001" x="330" y="627" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="S3 -&gt; S4 accel down to Thr INC" source="S3 -&gt; S4 accel down" target="Thr INC">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="870" y="456" curvePoint="false"/>
+            <arcpath id="001" x="338" y="451" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
         <arc id="S3 -&gt; S4 pulse below feq to below freq" source="S3 -&gt; S4 pulse below feq" target="below freq">
             <graphics/>
             <inscription>
@@ -1554,6 +1658,46 @@
             </tagged>
             <arcpath id="000" x="884" y="45" curvePoint="false"/>
             <arcpath id="001" x="335" y="531" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="S3 -&gt; S7 to brake" source="S3 -&gt; S7" target="brake">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1154" y="88" curvePoint="false"/>
+            <arcpath id="001" x="127" y="754" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="S3 -&gt; S7 to CCS ON" source="S3 -&gt; S7" target="CCS ON">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1155" y="76" curvePoint="false"/>
+            <arcpath id="001" x="360" y="172" curvePoint="false"/>
+            <arcpath id="002" x="323" y="168" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="S3 -&gt; S7 to Thr DEC" source="S3 -&gt; S7" target="Thr DEC">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1154" y="82" curvePoint="false"/>
+            <arcpath id="001" x="336" y="534" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="S4 -&gt; S3 to at freq" source="S4 -&gt; S3" target="at freq">
@@ -1724,7 +1868,7 @@
             <tagged>
                 <value>false</value>
             </tagged>
-            <arcpath id="000" x="338" y="536" curvePoint="false"/>
+            <arcpath id="000" x="338" y="537" curvePoint="false"/>
             <arcpath id="001" x="899" y="375" curvePoint="false"/>
             <type value="normal"/>
         </arc>
@@ -1807,6 +1951,19 @@
             <arcpath id="001" x="566" y="454" curvePoint="false"/>
             <type value="normal"/>
         </arc>
+        <arc id="Thr SAME to S3 -&gt; S4 accel down" source="Thr SAME" target="S3 -&gt; S4 accel down">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="308" y="268" curvePoint="false"/>
+            <arcpath id="001" x="870" y="453" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
         <arc id="Thr SAME to S3 -&gt; S4 pulse below feq" source="Thr SAME" target="S3 -&gt; S4 pulse below feq">
             <graphics/>
             <inscription>
@@ -1831,6 +1988,19 @@
             </tagged>
             <arcpath id="000" x="307" y="258" curvePoint="false"/>
             <arcpath id="001" x="885" y="33" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Thr SAME to S3 -&gt; S7" source="Thr SAME" target="S3 -&gt; S7">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="308" y="260" curvePoint="false"/>
+            <arcpath id="001" x="1154" y="79" curvePoint="false"/>
             <type value="normal"/>
         </arc>
     </net>
