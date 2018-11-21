@@ -1170,7 +1170,33 @@
                 <value>false</value>
             </tagged>
             <arcpath id="000" x="135" y="481" curvePoint="false"/>
-            <arcpath id="001" x="930" y="78" curvePoint="false"/>
+            <arcpath id="001" x="869" y="165" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="at freq to S4 -&gt; S3" source="at freq" target="S4 -&gt; S3">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="135" y="426" curvePoint="false"/>
+            <arcpath id="001" x="869" y="311" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="at freq to S5 -&gt; S3" source="at freq" target="S5 -&gt; S3">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="135" y="427" curvePoint="false"/>
+            <arcpath id="001" x="900" y="370" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="below freq to S3 -&gt; S4 pulse below feq" source="below freq" target="S3 -&gt; S4 pulse below feq">
@@ -1225,6 +1251,20 @@
             <arcpath id="001" x="884" y="49" curvePoint="false"/>
             <type value="normal"/>
         </arc>
+        <arc id="CCS maint to S4 -&gt; S3" source="CCS maint" target="S4 -&gt; S3">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="330" y="624" curvePoint="false"/>
+            <arcpath id="001" x="847" y="360" curvePoint="false"/>
+            <arcpath id="002" x="875" y="326" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
         <arc id="CCS maint to S4 -&gt; S5 pulse above" source="CCS maint" target="S4 -&gt; S5 pulse above">
             <graphics/>
             <inscription>
@@ -1236,6 +1276,20 @@
             </tagged>
             <arcpath id="000" x="327" y="621" curvePoint="false"/>
             <arcpath id="001" x="929" y="94" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="CCS maint to S5 -&gt; S3" source="CCS maint" target="S5 -&gt; S3">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="330" y="625" curvePoint="false"/>
+            <arcpath id="001" x="835" y="435" curvePoint="false"/>
+            <arcpath id="002" x="899" y="383" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="CCS not maint to S2 -&gt; S3" source="CCS not maint" target="S2 -&gt; S3">
@@ -1502,6 +1556,46 @@
             <arcpath id="001" x="335" y="531" curvePoint="false"/>
             <type value="normal"/>
         </arc>
+        <arc id="S4 -&gt; S3 to at freq" source="S4 -&gt; S3" target="at freq">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="870" y="306" curvePoint="false"/>
+            <arcpath id="001" x="135" y="426" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="S4 -&gt; S3 to CCS maint" source="S4 -&gt; S3" target="CCS maint">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="869" y="321" curvePoint="false"/>
+            <arcpath id="001" x="335" y="660" curvePoint="false"/>
+            <arcpath id="002" x="324" y="644" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="S4 -&gt; S3 to Thr SAME" source="S4 -&gt; S3" target="Thr SAME">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="870" y="301" curvePoint="false"/>
+            <arcpath id="001" x="308" y="265" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
         <arc id="S4 -&gt; S5 pulse above to above freq" source="S4 -&gt; S5 pulse above" target="above freq">
             <graphics/>
             <inscription>
@@ -1543,6 +1637,45 @@
             <arcpath id="001" x="335" y="532" curvePoint="false"/>
             <type value="normal"/>
         </arc>
+        <arc id="S5 -&gt; S3 to at freq" source="S5 -&gt; S3" target="at freq">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="900" y="366" curvePoint="false"/>
+            <arcpath id="001" x="135" y="427" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="S5 -&gt; S3 to CCS maint" source="S5 -&gt; S3" target="CCS maint">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="899" y="379" curvePoint="false"/>
+            <arcpath id="001" x="330" y="625" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="S5 -&gt; S3 to Thr SAME" source="S5 -&gt; S3" target="Thr SAME">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="900" y="363" curvePoint="false"/>
+            <arcpath id="001" x="308" y="265" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
         <arc id="start car to S1 -&gt; S2" source="start car" target="S1 -&gt; S2">
             <graphics/>
             <inscription>
@@ -1580,6 +1713,32 @@
             </tagged>
             <arcpath id="000" x="105" y="150" curvePoint="false"/>
             <arcpath id="001" x="561" y="359" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Thr DEC to S5 -&gt; S3" source="Thr DEC" target="S5 -&gt; S3">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="338" y="536" curvePoint="false"/>
+            <arcpath id="001" x="899" y="375" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Thr INC to S4 -&gt; S3" source="Thr INC" target="S4 -&gt; S3">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="338" y="447" curvePoint="false"/>
+            <arcpath id="001" x="869" y="316" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="Thr INC to S4 -&gt; S5 pulse above" source="Thr INC" target="S4 -&gt; S5 pulse above">
