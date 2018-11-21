@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><pnml>
+    <net id="Net-One" type="P/T net">
+        <token id="Default" enabled="true" red="0" green="0" blue="0"/>
+        <place id="CCS MAINT">
+            <graphics>
+                <position x="360.0" y="60.0"/>
+            </graphics>
+            <name>
+                <value>CCS MAINT</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="CCS NOT MAIN">
+            <graphics>
+                <position x="270.0" y="300.0"/>
+            </graphics>
+            <name>
+                <value>CCS NOT MAIN</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="CCS ON">
+            <graphics>
+                <position x="270.0" y="60.0"/>
+            </graphics>
+            <name>
+                <value>CCS ON</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Eng ON">
+            <graphics>
+                <position x="90.0" y="300.0"/>
+            </graphics>
+            <name>
+                <value>Eng ON</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="start car">
+            <graphics>
+                <position x="90.0" y="60.0"/>
+            </graphics>
+            <name>
+                <value>start car</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="start CCS">
+            <graphics>
+                <position x="375.0" y="300.0"/>
+            </graphics>
+            <name>
+                <value>start CCS</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Thr MAN">
+            <graphics>
+                <position x="180.0" y="300.0"/>
+            </graphics>
+            <name>
+                <value>Thr MAN</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Thr SAME">
+            <graphics>
+                <position x="180.0" y="60.0"/>
+            </graphics>
+            <name>
+                <value>Thr SAME</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <transition id="CCS start">
+            <graphics>
+                <position x="360.0" y="165.0"/>
+            </graphics>
+            <name>
+                <value>CCS start</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="CCS stop">
+            <graphics>
+                <position x="270.0" y="165.0"/>
+            </graphics>
+            <name>
+                <value>CCS stop</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="eng start">
+            <graphics>
+                <position x="180.0" y="165.0"/>
+            </graphics>
+            <name>
+                <value>eng start</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="eng stop">
+            <graphics>
+                <position x="90.0" y="165.0"/>
+            </graphics>
+            <name>
+                <value>eng stop</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <arc id="CCS MAINT to CCS stop" source="CCS MAINT" target="CCS stop">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="361" y="83" curvePoint="false"/>
+            <arcpath id="001" x="287" y="172" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="CCS NOT MAIN to CCS start" source="CCS NOT MAIN" target="CCS start">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="290" y="299" curvePoint="false"/>
+            <arcpath id="001" x="372" y="182" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="CCS ON to CCS stop" source="CCS ON" target="CCS stop">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="281" y="86" curvePoint="false"/>
+            <arcpath id="001" x="280" y="171" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="CCS start to CCS MAINT" source="CCS start" target="CCS MAINT">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="377" y="172" curvePoint="false"/>
+            <arcpath id="001" x="371" y="86" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="CCS start to CCS ON" source="CCS start" target="CCS ON">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="370" y="171" curvePoint="false"/>
+            <arcpath id="001" x="291" y="83" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="CCS start to Thr SAME" source="CCS start" target="Thr SAME">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="363" y="171" curvePoint="false"/>
+            <arcpath id="001" x="204" y="79" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="CCS stop to CCS NOT MAIN" source="CCS stop" target="CCS NOT MAIN">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="282" y="182" curvePoint="false"/>
+            <arcpath id="001" x="281" y="297" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="CCS stop to start CCS" source="CCS stop" target="start CCS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="289" y="182" curvePoint="false"/>
+            <arcpath id="001" x="377" y="300" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="CCS stop to Thr MAN" source="CCS stop" target="Thr MAN">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="275" y="181" curvePoint="false"/>
+            <arcpath id="001" x="200" y="299" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Eng ON to eng stop" source="Eng ON" target="eng stop">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="101" y="297" curvePoint="false"/>
+            <arcpath id="001" x="96" y="181" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="eng start to Eng ON" source="eng start" target="Eng ON">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="185" y="181" curvePoint="false"/>
+            <arcpath id="001" x="110" y="299" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="eng start to start CCS" source="eng start" target="start CCS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="199" y="182" curvePoint="false"/>
+            <arcpath id="001" x="374" y="303" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="eng start to Thr MAN" source="eng start" target="Thr MAN">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="192" y="182" curvePoint="false"/>
+            <arcpath id="001" x="192" y="297" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="eng stop to start car" source="eng stop" target="start car">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="96" y="171" curvePoint="false"/>
+            <arcpath id="001" x="101" y="86" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="eng stop to Thr SAME" source="eng stop" target="Thr SAME">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="106" y="172" curvePoint="false"/>
+            <arcpath id="001" x="182" y="83" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="start car to eng start" source="start car" target="eng start">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="111" y="83" curvePoint="false"/>
+            <arcpath id="001" x="186" y="171" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="start CCS to CCS start" source="start CCS" target="CCS start">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="385" y="297" curvePoint="false"/>
+            <arcpath id="001" x="379" y="182" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="start CCS to eng stop" source="start CCS" target="eng stop">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="373" y="305" curvePoint="false"/>
+            <arcpath id="001" x="116" y="177" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Thr MAN to CCS start" source="Thr MAN" target="CCS start">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="203" y="302" curvePoint="false"/>
+            <arcpath id="001" x="365" y="181" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Thr MAN to eng stop" source="Thr MAN" target="eng stop">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="183" y="299" curvePoint="false"/>
+            <arcpath id="001" x="106" y="182" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Thr SAME to CCS stop" source="Thr SAME" target="CCS stop">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="201" y="83" curvePoint="false"/>
+            <arcpath id="001" x="273" y="171" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Thr SAME to eng start" source="Thr SAME" target="eng start">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="192" y="86" curvePoint="false"/>
+            <arcpath id="001" x="196" y="172" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+    </net>
+</pnml>
