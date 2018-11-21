@@ -355,7 +355,7 @@
                 <value>0</value>
             </orientation>
             <rate>
-                <value>1.0</value>
+                <value>1</value>
             </rate>
             <timed>
                 <value>false</value>
@@ -381,7 +381,7 @@
                 <value>0</value>
             </orientation>
             <rate>
-                <value>1.0</value>
+                <value>1</value>
             </rate>
             <timed>
                 <value>false</value>
@@ -407,7 +407,7 @@
                 <value>0</value>
             </orientation>
             <rate>
-                <value>1.0</value>
+                <value>1</value>
             </rate>
             <timed>
                 <value>false</value>
@@ -433,7 +433,7 @@
                 <value>0</value>
             </orientation>
             <rate>
-                <value>1.0</value>
+                <value>1</value>
             </rate>
             <timed>
                 <value>false</value>
@@ -459,7 +459,7 @@
                 <value>0</value>
             </orientation>
             <rate>
-                <value>1.0</value>
+                <value>1</value>
             </rate>
             <timed>
                 <value>false</value>
@@ -485,7 +485,7 @@
                 <value>0</value>
             </orientation>
             <rate>
-                <value>1.0</value>
+                <value>1</value>
             </rate>
             <timed>
                 <value>false</value>
@@ -511,7 +511,7 @@
                 <value>0</value>
             </orientation>
             <rate>
-                <value>1.0</value>
+                <value>1</value>
             </rate>
             <timed>
                 <value>false</value>
@@ -537,7 +537,7 @@
                 <value>0</value>
             </orientation>
             <rate>
-                <value>1.0</value>
+                <value>1</value>
             </rate>
             <timed>
                 <value>false</value>
@@ -563,7 +563,7 @@
                 <value>0</value>
             </orientation>
             <rate>
-                <value>1.0</value>
+                <value>1</value>
             </rate>
             <timed>
                 <value>false</value>
@@ -589,7 +589,7 @@
                 <value>0</value>
             </orientation>
             <rate>
-                <value>1.0</value>
+                <value>1</value>
             </rate>
             <timed>
                 <value>false</value>
@@ -615,7 +615,7 @@
                 <value>0</value>
             </orientation>
             <rate>
-                <value>1.0</value>
+                <value>1</value>
             </rate>
             <timed>
                 <value>false</value>
@@ -641,7 +641,7 @@
                 <value>0</value>
             </orientation>
             <rate>
-                <value>1.0</value>
+                <value>1</value>
             </rate>
             <timed>
                 <value>false</value>
@@ -667,7 +667,7 @@
                 <value>0</value>
             </orientation>
             <rate>
-                <value>1.0</value>
+                <value>1</value>
             </rate>
             <timed>
                 <value>false</value>
@@ -693,7 +693,7 @@
                 <value>0</value>
             </orientation>
             <rate>
-                <value>1.0</value>
+                <value>1</value>
             </rate>
             <timed>
                 <value>false</value>
@@ -719,7 +719,7 @@
                 <value>0</value>
             </orientation>
             <rate>
-                <value>1.0</value>
+                <value>1</value>
             </rate>
             <timed>
                 <value>false</value>
@@ -745,7 +745,7 @@
                 <value>0</value>
             </orientation>
             <rate>
-                <value>1.0</value>
+                <value>1</value>
             </rate>
             <timed>
                 <value>false</value>
@@ -771,7 +771,7 @@
                 <value>0</value>
             </orientation>
             <rate>
-                <value>1.0</value>
+                <value>1</value>
             </rate>
             <timed>
                 <value>false</value>
@@ -797,7 +797,7 @@
                 <value>0</value>
             </orientation>
             <rate>
-                <value>1.0</value>
+                <value>1</value>
             </rate>
             <timed>
                 <value>false</value>
@@ -823,7 +823,7 @@
                 <value>0</value>
             </orientation>
             <rate>
-                <value>1.0</value>
+                <value>1</value>
             </rate>
             <timed>
                 <value>false</value>
@@ -849,7 +849,7 @@
                 <value>0</value>
             </orientation>
             <rate>
-                <value>1.0</value>
+                <value>1</value>
             </rate>
             <timed>
                 <value>false</value>
@@ -875,7 +875,7 @@
                 <value>0</value>
             </orientation>
             <rate>
-                <value>1.0</value>
+                <value>1</value>
             </rate>
             <timed>
                 <value>false</value>
@@ -901,7 +901,7 @@
                 <value>0</value>
             </orientation>
             <rate>
-                <value>1.0</value>
+                <value>1</value>
             </rate>
             <timed>
                 <value>false</value>
@@ -915,7 +915,7 @@
         </transition>
         <transition id="S5 -&gt; S7">
             <graphics>
-                <position x="1202.5" y="165.0"/>
+                <position x="1207.5" y="156.66666666666669"/>
             </graphics>
             <name>
                 <value>S5 -&gt; S7</value>
@@ -927,7 +927,7 @@
                 <value>0</value>
             </orientation>
             <rate>
-                <value>1.0</value>
+                <value>1</value>
             </rate>
             <timed>
                 <value>false</value>
@@ -953,7 +953,7 @@
                 <value>0</value>
             </orientation>
             <rate>
-                <value>1.0</value>
+                <value>1</value>
             </rate>
             <timed>
                 <value>false</value>
@@ -979,7 +979,7 @@
                 <value>0</value>
             </orientation>
             <rate>
-                <value>1.0</value>
+                <value>1</value>
             </rate>
             <timed>
                 <value>false</value>
@@ -1005,7 +1005,7 @@
                 <value>0</value>
             </orientation>
             <rate>
-                <value>1.0</value>
+                <value>1</value>
             </rate>
             <timed>
                 <value>false</value>
@@ -1031,7 +1031,7 @@
                 <value>0</value>
             </orientation>
             <rate>
-                <value>1.0</value>
+                <value>1</value>
             </rate>
             <timed>
                 <value>false</value>
@@ -1057,7 +1057,7 @@
                 <value>0</value>
             </orientation>
             <rate>
-                <value>1.0</value>
+                <value>1</value>
             </rate>
             <timed>
                 <value>false</value>
@@ -1083,7 +1083,7 @@
                 <value>0</value>
             </orientation>
             <rate>
-                <value>1.0</value>
+                <value>1</value>
             </rate>
             <timed>
                 <value>false</value>
@@ -1109,7 +1109,7 @@
                 <value>0</value>
             </orientation>
             <rate>
-                <value>1.0</value>
+                <value>1</value>
             </rate>
             <timed>
                 <value>false</value>
@@ -1135,7 +1135,7 @@
                 <value>0</value>
             </orientation>
             <rate>
-                <value>1.0</value>
+                <value>1</value>
             </rate>
             <timed>
                 <value>false</value>
@@ -1170,7 +1170,7 @@
                 <value>false</value>
             </tagged>
             <arcpath id="000" x="135" y="481" curvePoint="false"/>
-            <arcpath id="001" x="930" y="78" curvePoint="false"/>
+            <arcpath id="001" x="869" y="165" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="accelerate to S3 -&gt; S4 accel down" source="accelerate" target="S3 -&gt; S4 accel down">
@@ -1209,7 +1209,7 @@
                 <value>false</value>
             </tagged>
             <arcpath id="000" x="135" y="426" curvePoint="false"/>
-            <arcpath id="001" x="869" y="315" curvePoint="false"/>
+            <arcpath id="001" x="869" y="311" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="at freq to S5 -&gt; S3" source="at freq" target="S5 -&gt; S3">
@@ -1274,7 +1274,7 @@
                 <value>false</value>
             </tagged>
             <arcpath id="000" x="127" y="755" curvePoint="false"/>
-            <arcpath id="001" x="1209" y="186" curvePoint="false"/>
+            <arcpath id="001" x="1214" y="178" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="CCS maint to S3 -&gt; S2" source="CCS maint" target="S3 -&gt; S2">
@@ -1498,7 +1498,7 @@
                 <value>false</value>
             </tagged>
             <arcpath id="000" x="330" y="600" curvePoint="false"/>
-            <arcpath id="001" x="1209" y="180" curvePoint="false"/>
+            <arcpath id="001" x="1214" y="172" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="CCS not maint to S2 -&gt; S3" source="CCS not maint" target="S2 -&gt; S3">
@@ -1588,8 +1588,8 @@
             <tagged>
                 <value>false</value>
             </tagged>
-            <arcpath id="000" x="323" y="166" curvePoint="false"/>
-            <arcpath id="001" x="1210" y="171" curvePoint="false"/>
+            <arcpath id="000" x="323" y="165" curvePoint="false"/>
+            <arcpath id="001" x="1215" y="163" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="CCS ON to S7 -&gt; S3" source="CCS ON" target="S7 -&gt; S3">
@@ -2194,7 +2194,7 @@
             <tagged>
                 <value>false</value>
             </tagged>
-            <arcpath id="000" x="870" y="310" curvePoint="false"/>
+            <arcpath id="000" x="870" y="306" curvePoint="false"/>
             <arcpath id="001" x="135" y="426" curvePoint="false"/>
             <type value="normal"/>
         </arc>
@@ -2207,7 +2207,7 @@
             <tagged>
                 <value>false</value>
             </tagged>
-            <arcpath id="000" x="869" y="323" curvePoint="false"/>
+            <arcpath id="000" x="869" y="321" curvePoint="false"/>
             <arcpath id="001" x="335" y="660" curvePoint="false"/>
             <arcpath id="002" x="320" y="620" curvePoint="false"/>
             <type value="normal"/>
@@ -2221,7 +2221,7 @@
             <tagged>
                 <value>false</value>
             </tagged>
-            <arcpath id="000" x="870" y="306" curvePoint="false"/>
+            <arcpath id="000" x="870" y="301" curvePoint="false"/>
             <arcpath id="001" x="308" y="265" curvePoint="false"/>
             <type value="normal"/>
         </arc>
@@ -2431,7 +2431,7 @@
             <tagged>
                 <value>false</value>
             </tagged>
-            <arcpath id="000" x="1209" y="184" curvePoint="false"/>
+            <arcpath id="000" x="1214" y="175" curvePoint="false"/>
             <arcpath id="001" x="127" y="755" curvePoint="false"/>
             <type value="normal"/>
         </arc>
@@ -2444,7 +2444,7 @@
             <tagged>
                 <value>false</value>
             </tagged>
-            <arcpath id="000" x="1209" y="190" curvePoint="false"/>
+            <arcpath id="000" x="1214" y="181" curvePoint="false"/>
             <arcpath id="001" x="329" y="705" curvePoint="false"/>
             <type value="normal"/>
         </arc>
@@ -2457,11 +2457,11 @@
             <tagged>
                 <value>false</value>
             </tagged>
-            <arcpath id="000" x="1210" y="169" curvePoint="false"/>
-            <arcpath id="001" x="323" y="166" curvePoint="false"/>
+            <arcpath id="000" x="1215" y="160" curvePoint="false"/>
+            <arcpath id="001" x="323" y="165" curvePoint="false"/>
             <type value="normal"/>
         </arc>
-        <arc id="S5 -&gt; S7 to Thr DEC" source="S5 -&gt; S7" target="Thr DEC">
+        <arc id="S5 -&gt; S7 to Thr INC" source="S5 -&gt; S7" target="Thr INC">
             <graphics/>
             <inscription>
                 <value>Default,1</value>
@@ -2470,8 +2470,8 @@
             <tagged>
                 <value>false</value>
             </tagged>
-            <arcpath id="000" x="1210" y="175" curvePoint="false"/>
-            <arcpath id="001" x="337" y="535" curvePoint="false"/>
+            <arcpath id="000" x="1214" y="169" curvePoint="false"/>
+            <arcpath id="001" x="338" y="446" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="S7 -&gt; S3 to CCS maint" source="S7 -&gt; S3" target="CCS maint">
@@ -2591,19 +2591,6 @@
             <arcpath id="001" x="900" y="501" curvePoint="false"/>
             <type value="normal"/>
         </arc>
-        <arc id="Thr DEC to S5 -&gt; S7" source="Thr DEC" target="S5 -&gt; S7">
-            <graphics/>
-            <inscription>
-                <value>Default,1</value>
-                <graphics/>
-            </inscription>
-            <tagged>
-                <value>false</value>
-            </tagged>
-            <arcpath id="000" x="337" y="535" curvePoint="false"/>
-            <arcpath id="001" x="1209" y="177" curvePoint="false"/>
-            <type value="normal"/>
-        </arc>
         <arc id="Thr DEC to S7 -&gt; S3" source="Thr DEC" target="S7 -&gt; S3">
             <graphics/>
             <inscription>
@@ -2640,7 +2627,7 @@
                 <value>false</value>
             </tagged>
             <arcpath id="000" x="338" y="447" curvePoint="false"/>
-            <arcpath id="001" x="869" y="319" curvePoint="false"/>
+            <arcpath id="001" x="869" y="316" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="Thr INC to S4 -&gt; S3 decrease speed CCS" source="Thr INC" target="S4 -&gt; S3 decrease speed CCS">
@@ -2694,6 +2681,19 @@
             </tagged>
             <arcpath id="000" x="337" y="445" curvePoint="false"/>
             <arcpath id="001" x="1185" y="121" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Thr INC to S5 -&gt; S7" source="Thr INC" target="S5 -&gt; S7">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="338" y="446" curvePoint="false"/>
+            <arcpath id="001" x="1215" y="166" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="Thr MAN to S2 -&gt; S1" source="Thr MAN" target="S2 -&gt; S1">
