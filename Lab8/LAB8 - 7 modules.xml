@@ -1,0 +1,2268 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<pnml>
+<net id="Net-One" type="P/T net">
+<token id="Default" enabled="true" red="0" green="0" blue="0"/>
+<place id="above freq">
+<graphics>
+<position x="720.0" y="225.0"/>
+</graphics>
+<name>
+<value>above freq</value>
+<graphics>
+<offset x="48.0" y="-11.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="above freq 7">
+<graphics>
+<position x="1035.0" y="210.0"/>
+</graphics>
+<name>
+<value>above freq 7</value>
+<graphics>
+<offset x="54.0" y="-12.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="accelerate">
+<graphics>
+<position x="165.0" y="390.0"/>
+</graphics>
+<name>
+<value>accelerate</value>
+<graphics>
+<offset x="31.0" y="-15.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="at freq">
+<graphics>
+<position x="480.0" y="225.0"/>
+</graphics>
+<name>
+<value>at freq</value>
+<graphics>
+<offset x="33.0" y="-15.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="at freq 7">
+<graphics>
+<position x="855.0" y="285.0"/>
+</graphics>
+<name>
+<value>at freq 7</value>
+<graphics>
+<offset x="29.0" y="44.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="below freq">
+<graphics>
+<position x="705.0" y="150.0"/>
+</graphics>
+<name>
+<value>below freq</value>
+<graphics>
+<offset x="41.0" y="-10.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="brake">
+<graphics>
+<position x="510.0" y="390.0"/>
+</graphics>
+<name>
+<value>brake</value>
+<graphics>
+<offset x="26.833333333333332" y="-17.166666666666664"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="CCS MAINT">
+<graphics>
+<position x="345.0" y="75.0"/>
+</graphics>
+<name>
+<value>CCS MAINT</value>
+<graphics>
+<offset x="44.0" y="-9.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="CCS MAINT 2">
+<graphics>
+<position x="600.0" y="60.0"/>
+</graphics>
+<name>
+<value>CCS MAINT 2</value>
+<graphics>
+<offset x="44.0" y="-11.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="CCS MAINT 3">
+<graphics>
+<position x="255.0" y="390.0"/>
+</graphics>
+<name>
+<value>CCS MAINT 3</value>
+<graphics>
+<offset x="46.5" y="-16.5"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="CCS MAINT 4">
+<graphics>
+<position x="585.0" y="390.0"/>
+</graphics>
+<name>
+<value>CCS MAINT 4</value>
+<graphics>
+<offset x="49.0" y="-11.5"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="CCS MAINT 5">
+<graphics>
+<position x="255.0" y="660.0"/>
+</graphics>
+<name>
+<value>CCS MAINT 5</value>
+<graphics>
+<offset x="55.5" y="-10.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="CCS MAINT 6">
+<graphics>
+<position x="585.0" y="660.0"/>
+</graphics>
+<name>
+<value>CCS MAINT 6</value>
+<graphics>
+<offset x="66.5" y="-9.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="CCS MAINT 7">
+<graphics>
+<position x="855.0" y="105.0"/>
+</graphics>
+<name>
+<value>CCS MAINT 7</value>
+<graphics>
+<offset x="51.0" y="-10.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="CCS NOT MAIN">
+<graphics>
+<position x="300.0" y="285.0"/>
+</graphics>
+<name>
+<value>CCS NOT MAIN</value>
+<graphics>
+<offset x="42.44444444444444" y="49.22222222222224"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="CCS NOT MAIN 4">
+<graphics>
+<position x="630.0" y="555.0"/>
+</graphics>
+<name>
+<value>CCS NOT MAIN 4</value>
+<graphics>
+<offset x="54.75" y="44.833333333333314"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="CCS ON">
+<graphics>
+<position x="285.0" y="75.0"/>
+</graphics>
+<name>
+<value>CCS ON</value>
+<graphics>
+<offset x="37.66666666666667" y="-12.999999999999998"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="CCS On 4">
+<graphics>
+<position x="660.0" y="390.0"/>
+</graphics>
+<name>
+<value>CCS On 4</value>
+<graphics>
+<offset x="46.27777777777777" y="-14.38888888888888"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="dec setting">
+<graphics>
+<position x="495.0" y="660.0"/>
+</graphics>
+<name>
+<value>dec setting</value>
+<graphics>
+<offset x="49.0" y="-8.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Eng ON">
+<graphics>
+<position x="165.0" y="285.0"/>
+</graphics>
+<name>
+<value>Eng ON</value>
+<graphics>
+<offset x="24.0" y="48.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="inc setting">
+<graphics>
+<position x="165.0" y="660.0"/>
+</graphics>
+<name>
+<value>inc setting</value>
+<graphics>
+<offset x="44.0" y="-9.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="start car">
+<graphics>
+<position x="165.0" y="75.0"/>
+</graphics>
+<name>
+<value>start car</value>
+<graphics>
+<offset x="29.0" y="-11.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="start CCS">
+<graphics>
+<position x="360.0" y="285.0"/>
+</graphics>
+<name>
+<value>start CCS</value>
+<graphics>
+<offset x="44.77777777777782" y="47.11111111111114"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Thr DEC">
+<graphics>
+<position x="675.0" y="300.0"/>
+</graphics>
+<name>
+<value>Thr DEC</value>
+<graphics>
+<offset x="80.0" y="34.75"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Thr DEC 3">
+<graphics>
+<position x="585.0" y="825.0"/>
+</graphics>
+<name>
+<value>Thr DEC 3</value>
+<graphics>
+<offset x="6.666666666666667" y="35.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Thr DEC  4">
+<graphics>
+<position x="570.0" y="555.0"/>
+</graphics>
+<name>
+<value>Thr DEC  4</value>
+<graphics>
+<offset x="19.0" y="47.22222222222224"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Thr DEC 7">
+<graphics>
+<position x="945.0" y="285.0"/>
+</graphics>
+<name>
+<value>Thr DEC 7</value>
+<graphics>
+<offset x="29.0" y="44.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Thr INC">
+<graphics>
+<position x="600.0" y="300.0"/>
+</graphics>
+<name>
+<value>Thr INC</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Thr INC 2">
+<graphics>
+<position x="255.0" y="825.0"/>
+</graphics>
+<name>
+<value>Thr INC 2</value>
+<graphics>
+<offset x="6.0" y="34.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Thr INC 3">
+<graphics>
+<position x="255.0" y="555.0"/>
+</graphics>
+<name>
+<value>Thr INC 3</value>
+<graphics>
+<offset x="38.0" y="48.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Thr MAN">
+<graphics>
+<position x="225.0" y="285.0"/>
+</graphics>
+<name>
+<value>Thr MAN</value>
+<graphics>
+<offset x="37.0" y="48.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Thr MAN 4">
+<graphics>
+<position x="690.0" y="555.0"/>
+</graphics>
+<name>
+<value>Thr MAN 4</value>
+<graphics>
+<offset x="55.50000000000001" y="44.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Thr SAME">
+<graphics>
+<position x="225.0" y="75.0"/>
+</graphics>
+<name>
+<value>Thr SAME</value>
+<graphics>
+<offset x="29.833333333333304" y="-11.166666666666664"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Thr SAME 2">
+<graphics>
+<position x="510.0" y="150.0"/>
+</graphics>
+<name>
+<value>Thr SAME 2</value>
+<graphics>
+<offset x="23.0" y="-12.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Thr SAME 3">
+<graphics>
+<position x="345.0" y="390.0"/>
+</graphics>
+<name>
+<value>Thr SAME 3</value>
+<graphics>
+<offset x="52.75" y="-18.25"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Thr SAME 4">
+<graphics>
+<position x="735.0" y="390.0"/>
+</graphics>
+<name>
+<value>Thr SAME 4</value>
+<graphics>
+<offset x="54.5" y="-15.083333333333334"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Thr SAME 5">
+<graphics>
+<position x="345.0" y="660.0"/>
+</graphics>
+<name>
+<value>Thr SAME 5</value>
+<graphics>
+<offset x="72.5" y="-11.25"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Thr SAME 6">
+<graphics>
+<position x="675.0" y="660.0"/>
+</graphics>
+<name>
+<value>Thr SAME 6</value>
+<graphics>
+<offset x="74.5" y="-18.5"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Thr SAME 7">
+<graphics>
+<position x="945.0" y="105.0"/>
+</graphics>
+<name>
+<value>Thr SAME 7</value>
+<graphics>
+<offset x="48.52777777777777" y="-13.055555555555554"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<transition id="CCS start">
+<graphics>
+<position x="345.0" y="180.0"/>
+</graphics>
+<name>
+<value>CCS start</value>
+<graphics>
+<offset x="90.0" y="25.0"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="CCS stop">
+<graphics>
+<position x="285.0" y="180.0"/>
+</graphics>
+<name>
+<value>CCS stop</value>
+<graphics>
+<offset x="39.0" y="38.0"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="dec speed">
+<graphics>
+<position x="645.0" y="225.0"/>
+</graphics>
+<name>
+<value>dec speed</value>
+<graphics>
+<offset x="89.99999999999999" y="37.361111111111114"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="dec speed 7">
+<graphics>
+<position x="945.0" y="210.0"/>
+</graphics>
+<name>
+<value>dec speed 7</value>
+<graphics>
+<offset x="81.75" y="42.75"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="dec speed for CCS">
+<graphics>
+<position x="585.0" y="750.0"/>
+</graphics>
+<name>
+<value>dec speed for CCS</value>
+<graphics>
+<offset x="-3.083333333333334" y="34.91666666666667"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="eng start">
+<graphics>
+<position x="225.0" y="180.0"/>
+</graphics>
+<name>
+<value>eng start</value>
+<graphics>
+<offset x="32.0" y="39.0"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="eng stop">
+<graphics>
+<position x="165.0" y="180.0"/>
+</graphics>
+<name>
+<value>eng stop</value>
+<graphics>
+<offset x="4.444444444444445" y="28.55555555555557"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="inc speed">
+<graphics>
+<position x="600.0" y="150.0"/>
+</graphics>
+<name>
+<value>inc speed</value>
+<graphics>
+<offset x="38.0" y="38.0"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="inc speed for CCS">
+<graphics>
+<position x="255.0" y="750.0"/>
+</graphics>
+<name>
+<value>inc speed for CCS</value>
+<graphics>
+<offset x="6.333333333333303" y="35.66666666666667"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="press brake">
+<graphics>
+<position x="570.0" y="480.0"/>
+</graphics>
+<name>
+<value>press brake</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="resume CCS">
+<graphics>
+<position x="675.0" y="480.0"/>
+</graphics>
+<name>
+<value>resume CCS</value>
+<graphics>
+<offset x="102.75" y="23.25"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="stab speed">
+<graphics>
+<position x="555.0" y="225.0"/>
+</graphics>
+<name>
+<value>stab speed</value>
+<graphics>
+<offset x="20.0" y="42.0"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="stab speed 7">
+<graphics>
+<position x="855.0" y="210.0"/>
+</graphics>
+<name>
+<value>stab speed 7</value>
+<graphics>
+<offset x="4.888888888888891" y="40.55555555555556"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="start accel">
+<graphics>
+<position x="255.0" y="480.0"/>
+</graphics>
+<name>
+<value>start accel</value>
+<graphics>
+<offset x="-7.0" y="32.5"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<arc id="above freq 2 to dec speed 3" source="above freq 7" target="dec speed 7">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1032" y="222" curvePoint="false"/>
+<arcpath id="001" x="971" y="222" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="above freq to dec speed" source="above freq" target="dec speed">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="717" y="237" curvePoint="false"/>
+<arcpath id="001" x="671" y="237" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="accelerate to start accel" source="accelerate" target="start accel">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="187" y="412" curvePoint="false"/>
+<arcpath id="001" x="258" y="486" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="at freq 4 to stab speed 4" source="at freq 7" target="stab speed 7">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="867" y="282" curvePoint="false"/>
+<arcpath id="001" x="867" y="227" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="at freq to stab speed" source="at freq" target="stab speed">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="506" y="237" curvePoint="false"/>
+<arcpath id="001" x="551" y="237" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="below freq to inc speed" source="below freq" target="inc speed">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="702" y="162" curvePoint="false"/>
+<arcpath id="001" x="626" y="162" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="brake to press brake" source="brake" target="press brake">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="530" y="414" curvePoint="false"/>
+<arcpath id="001" x="576" y="486" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="CCS MAINT 2 to dec speed" source="CCS MAINT 2" target="dec speed">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="616" y="86" curvePoint="false"/>
+<arcpath id="001" x="656" y="231" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="CCS MAINT 2 to inc speed" source="CCS MAINT 2" target="inc speed">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="612" y="86" curvePoint="false"/>
+<arcpath id="001" x="616" y="157" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="CCS MAINT 2 to stab speed" source="CCS MAINT 2" target="stab speed">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="608" y="86" curvePoint="false"/>
+<arcpath id="001" x="571" y="232" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="CCS MAINT 3 to start accel" source="CCS MAINT 3" target="start accel">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="267" y="416" curvePoint="false"/>
+<arcpath id="001" x="271" y="487" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="CCS MAINT 4 to press brake" source="CCS MAINT 4" target="press brake">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="594" y="416" curvePoint="false"/>
+<arcpath id="001" x="580" y="486" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="CCS MAINT 5 to inc speed 2" source="CCS MAINT 5" target="inc speed for CCS">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="266" y="686" curvePoint="false"/>
+<arcpath id="001" x="266" y="756" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="CCS MAINT 6 to dec speed 2" source="CCS MAINT 6" target="dec speed for CCS">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="596" y="686" curvePoint="false"/>
+<arcpath id="001" x="595" y="756" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="CCS MAINT 7 to dec speed 3" source="CCS MAINT 7" target="dec speed 7">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="876" y="128" curvePoint="false"/>
+<arcpath id="001" x="951" y="216" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="CCS MAINT 7 to stab speed 4" source="CCS MAINT 7" target="stab speed 7">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="866" y="131" curvePoint="false"/>
+<arcpath id="001" x="861" y="216" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="CCS MAINT to CCS stop" source="CCS MAINT" target="CCS stop">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="349" y="100" curvePoint="false"/>
+<arcpath id="001" x="302" y="187" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="CCS NOT MAINT to resume CCS" source="CCS NOT MAIN 4" target="resume CCS">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="650" y="554" curvePoint="false"/>
+<arcpath id="001" x="687" y="497" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="CCS On 4 to press brake" source="CCS On 4" target="press brake">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="661" y="412" curvePoint="false"/>
+<arcpath id="001" x="587" y="487" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="CCS On 4 to resume CCS" source="CCS On 4" target="resume CCS">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="674" y="416" curvePoint="false"/>
+<arcpath id="001" x="685" y="486" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="CCS ON to CCS stop" source="CCS ON" target="CCS stop">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="296" y="101" curvePoint="false"/>
+<arcpath id="001" x="295" y="186" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="CCS resume to CCS start" source="CCS NOT MAIN" target="CCS start">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="318" y="283" curvePoint="false"/>
+<arcpath id="001" x="357" y="197" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="CCS start to CCS MAINT" source="CCS start" target="CCS MAINT">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="362" y="187" curvePoint="false"/>
+<arcpath id="001" x="357" y="101" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="CCS start to CCS ON" source="CCS start" target="CCS ON">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="355" y="186" curvePoint="false"/>
+<arcpath id="001" x="304" y="99" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="CCS start to Thr SAME" source="CCS start" target="Thr SAME">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="348" y="186" curvePoint="false"/>
+<arcpath id="001" x="248" y="96" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="CCS stop to CCS resume" source="CCS stop" target="CCS NOT MAIN">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="297" y="197" curvePoint="false"/>
+<arcpath id="001" x="309" y="282" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="CCS stop to start CCS" source="CCS stop" target="start CCS">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="304" y="197" curvePoint="false"/>
+<arcpath id="001" x="363" y="284" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="CCS stop to Thr MAN" source="CCS stop" target="Thr MAN">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="290" y="196" curvePoint="false"/>
+<arcpath id="001" x="244" y="283" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="dec setting to dec speed 2" source="dec setting" target="dec speed for CCS">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="517" y="682" curvePoint="false"/>
+<arcpath id="001" x="588" y="756" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="dec speed 2 to CCS MAINT 6" source="dec speed for CCS" target="CCS MAINT 6">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="601" y="757" curvePoint="false"/>
+<arcpath id="001" x="597" y="686" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="dec speed 2 to dec setting" source="dec speed for CCS" target="dec setting">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="593" y="756" curvePoint="false"/>
+<arcpath id="001" x="517" y="682" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="dec speed 2 to Thr DEC 3" source="dec speed for CCS" target="Thr DEC 3">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="596" y="766" curvePoint="false"/>
+<arcpath id="001" x="596" y="822" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="dec speed 3 to above freq 2" source="dec speed 7" target="above freq 7">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="971" y="222" curvePoint="false"/>
+<arcpath id="001" x="1032" y="222" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="dec speed 3 to CCS MAINT 7" source="dec speed 7" target="CCS MAINT 7">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="948" y="216" curvePoint="false"/>
+<arcpath id="001" x="876" y="128" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="dec speed 3 to Thr DEC 4" source="dec speed 7" target="Thr DEC 7">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="956" y="226" curvePoint="false"/>
+<arcpath id="001" x="956" y="282" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="dec speed to above freq" source="dec speed" target="above freq">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="671" y="237" curvePoint="false"/>
+<arcpath id="001" x="717" y="237" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="dec speed to CCS MAINT 2" source="dec speed" target="CCS MAINT 2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="651" y="231" curvePoint="false"/>
+<arcpath id="001" x="615" y="86" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="dec speed to Thr DEC" source="dec speed" target="Thr DEC">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="661" y="242" curvePoint="false"/>
+<arcpath id="001" x="681" y="297" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Eng ON to eng stop" source="Eng ON" target="eng stop">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="176" y="282" curvePoint="false"/>
+<arcpath id="001" x="171" y="196" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="eng start to Eng ON" source="eng start" target="Eng ON">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="230" y="196" curvePoint="false"/>
+<arcpath id="001" x="184" y="283" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="eng start to start CCS" source="eng start" target="start CCS">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="244" y="197" curvePoint="false"/>
+<arcpath id="001" x="360" y="287" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="eng start to Thr MAN" source="eng start" target="Thr MAN">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="237" y="197" curvePoint="false"/>
+<arcpath id="001" x="237" y="282" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="eng stop to start car" source="eng stop" target="start car">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="171" y="186" curvePoint="false"/>
+<arcpath id="001" x="176" y="101" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="eng stop to Thr SAME" source="eng stop" target="Thr SAME">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="181" y="187" curvePoint="false"/>
+<arcpath id="001" x="229" y="100" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="inc setting to inc speed 2" source="inc setting" target="inc speed for CCS">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="187" y="682" curvePoint="false"/>
+<arcpath id="001" x="258" y="756" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="inc speed 2 to CCS MAINT 5" source="inc speed for CCS" target="CCS MAINT 5">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="265" y="756" curvePoint="false"/>
+<arcpath id="001" x="266" y="686" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="inc speed 2 to inc setting" source="inc speed for CCS" target="inc setting">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="263" y="756" curvePoint="false"/>
+<arcpath id="001" x="187" y="682" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="inc speed 2 to Thr INC 2" source="inc speed for CCS" target="Thr INC 2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="266" y="766" curvePoint="false"/>
+<arcpath id="001" x="266" y="822" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="inc speed to below freq" source="inc speed" target="below freq">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="626" y="162" curvePoint="false"/>
+<arcpath id="001" x="702" y="162" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="inc speed to CCS MAINT 2" source="inc speed" target="CCS MAINT 2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="611" y="156" curvePoint="false"/>
+<arcpath id="001" x="611" y="86" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="inc speed to Thr INC" source="inc speed" target="Thr INC">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="611" y="166" curvePoint="false"/>
+<arcpath id="001" x="611" y="297" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="press brake to brake" source="press brake" target="brake">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="573" y="486" curvePoint="false"/>
+<arcpath id="001" x="529" y="414" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="press brake to CCS NOT MAINT" source="press brake" target="CCS NOT MAIN 4">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="582" y="497" curvePoint="false"/>
+<arcpath id="001" x="632" y="555" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="press brake to CCS On 4" source="press brake" target="CCS On 4">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="590" y="487" curvePoint="false"/>
+<arcpath id="001" x="661" y="412" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="press brake to Thr DEC 2" source="press brake" target="Thr DEC  4">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="575" y="496" curvePoint="false"/>
+<arcpath id="001" x="580" y="552" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="press brake to Thr MAN 4" source="press brake" target="Thr MAN 4">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="589" y="497" curvePoint="false"/>
+<arcpath id="001" x="689" y="559" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="resume CCS to CCS MAINT 4" source="resume CCS" target="CCS MAINT 4">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="678" y="486" curvePoint="false"/>
+<arcpath id="001" x="607" y="412" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="resume CCS to CCS On 4" source="resume CCS" target="CCS On 4">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="689" y="487" curvePoint="false"/>
+<arcpath id="001" x="675" y="416" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="resume CCS to Thr SAME 4" source="resume CCS" target="Thr SAME 4">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="692" y="487" curvePoint="false"/>
+<arcpath id="001" x="738" y="414" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="stab speed 4 to at freq 4" source="stab speed 7" target="at freq 7">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="861" y="226" curvePoint="false"/>
+<arcpath id="001" x="865" y="282" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="stab speed 4 to CCS MAINT 7" source="stab speed 7" target="CCS MAINT 7">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="865" y="216" curvePoint="false"/>
+<arcpath id="001" x="867" y="131" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="stab speed 4 to Thr SAME 7" source="stab speed 7" target="Thr SAME 7">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="871" y="217" curvePoint="false"/>
+<arcpath id="001" x="947" y="128" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="stab speed to at freq" source="stab speed" target="at freq">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="551" y="237" curvePoint="false"/>
+<arcpath id="001" x="506" y="237" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="stab speed to CCS MAINT 2" source="stab speed" target="CCS MAINT 2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="572" y="232" curvePoint="false"/>
+<arcpath id="001" x="608" y="86" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="stab speed to Thr SAME 2" source="stab speed" target="Thr SAME 2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="561" y="231" curvePoint="false"/>
+<arcpath id="001" x="529" y="175" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="start accel to accelerate" source="start accel" target="accelerate">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="257" y="486" curvePoint="false"/>
+<arcpath id="001" x="187" y="412" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="start accel to CCS MAINT 3" source="start accel" target="CCS MAINT 3">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="265" y="486" curvePoint="false"/>
+<arcpath id="001" x="266" y="416" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="start accel to P21" source="start accel" target="Thr INC 3">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="266" y="496" curvePoint="false"/>
+<arcpath id="001" x="266" y="552" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="start car to eng start" source="start car" target="eng start">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="184" y="100" curvePoint="false"/>
+<arcpath id="001" x="231" y="186" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="start CCS to CCS start" source="start CCS" target="CCS start">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="370" y="282" curvePoint="false"/>
+<arcpath id="001" x="364" y="197" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="start CCS to eng stop" source="start CCS" target="eng stop">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="359" y="289" curvePoint="false"/>
+<arcpath id="001" x="191" y="192" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Thr DEC  4 to resume CCS" source="Thr DEC  4" target="resume CCS">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="594" y="558" curvePoint="false"/>
+<arcpath id="001" x="680" y="496" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Thr DEC 4 to stab speed 4" source="Thr DEC 7" target="stab speed 7">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="945" y="287" curvePoint="false"/>
+<arcpath id="001" x="871" y="227" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Thr INC to dec speed" source="Thr INC" target="dec speed">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="619" y="298" curvePoint="false"/>
+<arcpath id="001" x="651" y="241" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Thr INC to stab speed" source="Thr INC" target="stab speed">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="603" y="299" curvePoint="false"/>
+<arcpath id="001" x="566" y="241" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Thr MAN 4 to resume CCS" source="Thr MAN 4" target="resume CCS">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="700" y="552" curvePoint="false"/>
+<arcpath id="001" x="694" y="497" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Thr MAN to CCS start" source="Thr MAN" target="CCS start">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="248" y="287" curvePoint="false"/>
+<arcpath id="001" x="350" y="196" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Thr MAN to eng stop" source="Thr MAN" target="eng stop">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="229" y="283" curvePoint="false"/>
+<arcpath id="001" x="181" y="197" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Thr SAME 2 to inc speed" source="Thr SAME 2" target="inc speed">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="536" y="162" curvePoint="false"/>
+<arcpath id="001" x="596" y="162" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Thr SAME 3 to start accel" source="Thr SAME 3" target="start accel">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="346" y="412" curvePoint="false"/>
+<arcpath id="001" x="272" y="487" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Thr SAME 4 to press brake" source="Thr SAME 4" target="press brake">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="734" y="409" curvePoint="false"/>
+<arcpath id="001" x="596" y="492" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Thr SAME 5 to inc speed 2" source="Thr SAME 5" target="inc speed for CCS">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="346" y="682" curvePoint="false"/>
+<arcpath id="001" x="272" y="757" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Thr SAME 6 to dec speed 2" source="Thr SAME 6" target="dec speed for CCS">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="676" y="682" curvePoint="false"/>
+<arcpath id="001" x="602" y="757" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Thr SAME 7 to dec speed 3" source="Thr SAME 7" target="dec speed 7">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="957" y="131" curvePoint="false"/>
+<arcpath id="001" x="961" y="217" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Thr SAME to CCS stop" source="Thr SAME" target="CCS stop">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="243" y="100" curvePoint="false"/>
+<arcpath id="001" x="288" y="186" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Thr SAME to eng start" source="Thr SAME" target="eng start">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="237" y="101" curvePoint="false"/>
+<arcpath id="001" x="241" y="187" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+</net>
+</pnml>
